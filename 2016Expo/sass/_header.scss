@@ -5,7 +5,7 @@ header {
     h1 {
         color: $mm4_blue;
     }
-    @include respond-to(iphone) {
+    @include respond-to('320') {
         .logo {
             width: 40%;
             float: left;
@@ -15,7 +15,7 @@ header {
         h1 {
             width: 60%;
             float: right;
-            font-size: $h1-iphone-font;
+            font-size: $h1-'320'-font;
             margin: 0;
         }
     }

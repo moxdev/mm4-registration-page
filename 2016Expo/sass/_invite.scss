@@ -7,15 +7,15 @@
     }
     .invite-content{
         .desc {
-            font-family: $bold-font;
+            font-family: $font__bold;
             text-transform: uppercase;
             color: $mm4_blue;
         }
         .info {
-            font-family: $regular-font;
+            font-family: $font__main;
         }
     }
-    @include respond-to(iphone) {
+    @include respond-to('320') {
         clear: both;
         width: 100%;
         h1 {

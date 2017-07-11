@@ -1914,6 +1914,12 @@
 		"oAP": "\/sass\/.sass-cache\/52c376657bb58a55bd3321cfe40fb33b53d085cf\/_variables.scssc",
 		"oF": 0
 		},
+	"\/sass\/.sass-cache\/64250a4d697b44859742ec128c4f9a4657350d31\/mixins.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sass\/.sass-cache\/64250a4d697b44859742ec128c4f9a4657350d31\/mixins.scssc",
+		"oF": 0
+		},
 	"\/sass\/.sass-cache\/7afaef4732350a4d7e5a46dd49801df5ce5d6feb\/_breakpoints.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -2100,6 +2106,78 @@
 		"oAP": "\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/styles.scssc",
 		"oF": 0
 		},
+	"\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_about.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_about.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_fonts.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_fonts.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_header.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_header.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_headings.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_headings.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_invite.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_invite.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_main-content.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_main-content.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_normalize.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_normalize.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_registration.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_registration.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_site.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_site.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_typography.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_typography.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/normalize.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/normalize.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/styles.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/styles.scssc",
+		"oF": 0
+		},
 	"\/sass\/.sass-cache\/e9e9ce2093f27378fe50c2ab8ce79955a473263d\/mixins.scssc": {
 		"ft": 8192,
 		"oA": 2,
@@ -2124,6 +2202,36 @@
 		"oAP": "\/sass\/.sass-cache\/f8f272fdd798717d4293d817e0d47d806ff70c6a\/_variables.scssc",
 		"oF": 0
 		},
+	"\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_breakpoints.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_breakpoints.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_colors.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_colors.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_headings.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_headings.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_typography.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_typography.scssc",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_variables.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_variables.scssc",
+		"oF": 0
+		},
 	"\/sass\/_about.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2133,6 +2241,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/_about.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_fonts.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2163,7 +2284,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/_invite.scss": {
+	"\/sass\/_headings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2171,7 +2292,33 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_invite.css",
+		"oAP": "\/css\/_headings.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_main-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_main-content.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_normalize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_normalize.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2198,19 +2345,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/_site.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sass\/_typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2244,19 +2378,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/normalize.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/normalize.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/sass\/styles.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -2268,7 +2389,7 @@
 		"oAP": "\/css\/styles.css",
 		"oF": 0,
 		"oS": 1,
-		"uL": 1
+		"uL": 0
 		},
 	"\/sass\/variables\/_breakpoints.scss": {
 		"aP": 0,
@@ -2292,6 +2413,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/css\/_colors.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/variables\/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/css\/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2492,7 +2626,7 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerBrowserString": "> 1%, last 3 versions, Firefox ESR, Opera 12.1",
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,

@@ -15,11 +15,11 @@ img {
 
 h1 {
     color: $title-color;
-    font-family: $title-font;
+    font-family: $font__heading;
     padding: 20px;
 }
 p {
-    font-family: $regular-font;
+    font-family: $font__main;
 }
 
 .title {
@@ -35,7 +35,7 @@ p {
 }
 body {
     color: $text_main;
-    font-family: $regular-font;
+    font-family: $font__main;
     background-color: $mm4_blue;
 }
 

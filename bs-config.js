@@ -20,7 +20,8 @@ module.exports = {
         }
     },
     "files": [
-        'css/style.css',
+        'css/styles.css',
+        'sass/**/*.scss',
         'index.html',
         '*.php',
         'images/*.svg',

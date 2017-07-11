@@ -1,4 +1,4 @@
-// iPhone, min-width: 320px
+// '320', min-width: 320px
 // mobile, min-width: 480px
 // tablet, min-width: 768px
 // laptop, min-width: 992px
@@ -8,7 +8,7 @@
 // xxlarge, min-width: 2243px
 
 @mixin respond-to($breakpoint) {
-  @if $breakpoint == "iphone" {
+  @if $breakpoint == "'320'" {
     @media (min-width: 320px) {
       @content;
     }

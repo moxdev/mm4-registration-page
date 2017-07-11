@@ -1,5 +1,6 @@
 @import "colors";
 @import "breakpoints";
+@import "typography";
 
 $h1-iphone-font: 1em;
 $h1-mobile-font: 1.7em;
@@ -11,9 +12,5 @@ $header-mobile: 1.7em;
 $header-tablet: 2em;
 
 $h1-thank-you: 2em;
-
-$title-font: 'Aleo-Bold';
-$bold-font:'PTSans-Bold';
-$regular-font:'PTSans-Regular';
 
 $a-tags: 'a, a:active, a:hover, a:visited';

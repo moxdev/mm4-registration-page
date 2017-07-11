@@ -1,0 +1,22 @@
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  font-weight: normal;
+}
+
+h1 {
+  @include reset;
+  color: $mm4_blue;
+  font-family: $font__heading;
+  line-height: 1.2;
+  margin-top: .5em;
+  @include font-smooth;
+}
+h2 {
+  @include reset;
+  font-family: $font__heading;
+  color: #fff;
+  line-height: 1.2;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  @include font-smooth;
+}

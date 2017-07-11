@@ -18,7 +18,7 @@
                 display: inline;
                 label {
                     color: $mm4_white;
-                    font-family: $bold-font;
+                    font-family: $font__bold;
                 }
             }
             .honey {
@@ -28,17 +28,17 @@
         .schedule-section {
             h3, label {
                 color: $mm4-yellow;
-                font-family: $bold-font;
+                font-family: $font__bold;
             }
             .read-more-toggle, .read-more-content  {
                 color: $mm4-white;
-                font-family: $regular-font;
+                font-family: $font__main;
             }
             p {
                 color: $mm4-white;
-                font-family: $regular-font;
+                font-family: $font__main;
                 span {
-                    font-family: $bold-font;
+                    font-family: $font__bold;
                 }
             }
         }
@@ -71,7 +71,7 @@
             }
         }
     }
-    @include respond-to(iphone) {
+    @include respond-to('320') {
         .registration-wrapper {
             padding: 0 10px;
         }
@@ -153,7 +153,7 @@
             }
         }
     }
-    @include respond-to(mobile) {
+    @include respond-to('450') {
         .registration-wrapper {
             padding: 0 20px;
         }
@@ -212,7 +212,7 @@
             }
         }
     }
-    @include respond-to(tablet) {
+    @include respond-to('750') {
         h1 {
             font-size: $h1-tablet-font;
         }
@@ -220,7 +220,7 @@
             padding: 0 40px;
         }
     }
-    @include respond-to(laptop) {
+    @include respond-to('950') {
         h1 {
             font-size: $h1-laptop-font;
         }
@@ -279,7 +279,7 @@
             }
         }
     }
-    @include respond-to(large) {
+    @include respond-to('950') {
         .registration-wrapper {
             .form-section {
                 .form-row {
@@ -290,7 +290,7 @@
             }
         }
     }
-    @include respond-to(xlarge) {
+    @include respond-to('1450') {
         .registration-wrapper {
             .form-section {
                 .form-row {
@@ -301,7 +301,7 @@
             }
         }
     }
-    @include respond-to(xxlarge) {
+    @include respond-to('1850') {
         .registration-wrapper {
             .schedule-section {
                 .fieldset {

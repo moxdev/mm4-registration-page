@@ -18,7 +18,7 @@
                 display: inline;
                 label {
                     color: $mm4_white;
-                    font-family: $bold-font;
+                    font-family: $font__bold;
                 }
             }
             .honey {
@@ -28,17 +28,17 @@
         .schedule-section {
             h3, label {
                 color: $mm4-yellow;
-                font-family: $bold-font;
+                font-family: $font__bold;
             }
             .read-more-toggle, .read-more-content  {
                 color: $mm4-white;
-                font-family: $regular-font;
+                font-family: $font__main;
             }
             p {
                 color: $mm4-white;
-                font-family: $regular-font;
+                font-family: $font__main;
                 span {
-                    font-family: $bold-font;
+                    font-family: $font__bold;
                 }
             }
         }
@@ -71,7 +71,7 @@
             }
         }
     }
-    @include respond-to(iphone) {
+    @include respond-to('320') {
         .registration-wrapper {
             padding: 0 10px;
         }

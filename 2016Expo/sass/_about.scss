@@ -4,13 +4,13 @@
     }
     .about-content {
         p {
-            font-family: $regular-font;
+            font-family: $font__main;
         }
         h4 {
             color: $mm4_orange;
         }
         h3 {
-            font-family: $bold-font;
+            font-family: $font__bold;
             text-transform: uppercase;
             color: $mm4-blue;
         }
@@ -22,7 +22,7 @@
             color: $mm4_blue;
         }
     }
-    @include respond-to(iphone) {
+    @include respond-to('320') {
         width: 100%;
         clear: both;
         h1 {

@@ -1,58 +1,175 @@
-// iPhone, min-width: 320px
-// mobile, min-width: 480px
-// tablet, min-width: 768px
-// laptop, min-width: 992px
-// desktop, min-width: 1200px
-// large, min-width: 1690px
-// xlarge, min-width: 1990px
-// xxlarge, min-width: 2243px
+@mixin test {
+  border: 1px solid red;
+}
 
-@mixin respond-to($breakpoint) {
-  @if $breakpoint == "iphone" {
-    @media (min-width: 320px) {
+// Skew Left or Right side
+@mixin skew($side: right, $deg: -20deg, $right: -15px, $left: -15px, $width: 30px, $bg: #fff) {
+  position: relative;
+
+  &:before {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    @if $side == right {
+      right: $right;
+    }
+    @else if $side == left {
+      left: $left;
+    }
+
+    display: block;
+    width: $width;
+    background: $bg;
+    transform: skew($deg);
+  }
+}
+
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+  font-size: ($sizeValue * 16) * 1px;
+  font-size: $sizeValue * 1rem;
+}
+
+// Container Max-Width Settings
+@mixin container {
+  max-width: $width_max-content-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin xl-container {
+  max-width: $width_max-content-width-xlg;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin xxl-container {
+  max-width: $width_max-content-width-xxlg;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin xxxl-container {
+  max-width: $width_max-content-width-xxxlg;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin xxxxl-container {
+  max-width: $width_max-content-width-xxxxlg;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Link Styles
+@mixin linx ($link, $visit, $hover, $active) {
+  a {
+    color: $link;
+    &:visited {
+      color: $visit;
+    }
+    &:hover {
+      color: $hover;
+    }
+    &:active {
+      color: $active;
+    }
+  }
+}
+
+// Remove All Margin and Padding
+@mixin reset {
+  margin:0;
+  padding:0;
+}
+
+// Display Block, Margin Auto
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Margin Auto
+@mixin margin-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Font Smoothing for modern browsers
+@mixin font-smooth {
+  // text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Padding Left & Right
+@mixin padding-left-right() {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+
+  @include respond-to('750') {
+    padding-left: 2.75rem;
+    padding-right: 2.75rem;
+  }
+}
+
+// Section Padding Top & Bottom
+@mixin section-padding {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+// Padding Top & Bottom (REM)
+@mixin padding-top-bottom() {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+
+  @include respond-to(tablet) {
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem;
+  }
+}
+
+// Margin Left & Right (REM)
+@mixin margin-left-right() {
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+
+  @include respond-to(tablet) {
+    margin-left: 2.75rem;
+    margin-right: 2.75rem;
+  }
+}
+
+// Clearfix
+@mixin clearfix() {
+  content: "";
+  display: table;
+  table-layout: fixed;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+  clear: both;
+}
+
+// Media Queries (Dependent on variables/breakpoints.scss)
+@mixin respond-to($name) {
+  // If the key exists in the map
+  @if map-has-key($breakpoints, $name) {
+    // Prints a media query based on the value
+    @media #{inspect(map-get($breakpoints, $name))} {
       @content;
     }
   }
 
-  @else if $breakpoint == "mobile" {
-    @media (min-width: 480px) {
-      @content;
-    }
-  }
-
-  @else if $breakpoint == "tablet" {
-    @media (min-width: 768px) {
-      @content;
-    }
-  }
-
-  @else if $breakpoint == "laptop" {
-    @media (min-width: 992px) {
-      @content;
-    }
-  }
-
-  @else if $breakpoint == "desktop" {
-    @media (min-width: 1200px) {
-      @content;
-    }
-  }
-
-  @else if $breakpoint == "large" {
-    @media (min-width: 1690px) {
-      @content;
-    }
-  }
-
-  @else if $breakpoint == "xlarge" {
-    @media (min-width: 1990px) {
-      @content;
-    }
-  }
-
-  @else if $breakpoint == "xxlarge" {
-    @media (min-width: 2243px) {
-      @content;
-    }
+  // If the key doesn't exist in the map
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoints}`. "
+      + "Please make sure it is defined in `$breakpoints` map.";
   }
 }
