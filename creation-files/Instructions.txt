@@ -1,0 +1,95 @@
+ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
+
+PUBLICATION NAME: EventRegistration.indd
+
+PACKAGE DATE: 6/28/17 2:34 PM
+Creation Date: 6/28/17
+Modification Date: 6/28/17
+
+CONTACT INFORMATION
+
+Company Name: 
+Contact: 
+Address: 
+
+
+
+
+
+Phone: 
+Fax: 
+Email: 
+
+SPECIAL INSTRUCTIONS AND OTHER NOTES
+
+
+
+
+
+
+External Plug-ins 1
+
+ExtensisFontManagementIDCS5.5.InDesignPlugin
+
+
+Non Opaque Objects :None
+
+FONTS
+3 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+Fonts Packaged
+- Name: Aleo-Bold; Type: OpenType Type 1, Status: OK
+- Name: PTSans-Bold; Type: OpenType TrueType, Status: OK
+- Name: PTSans-Regular; Type: TrueType, Status: OK
+
+
+COLORS AND INKS
+4 Process Inks; 4 Spot Inks, 3 Duplicate Spot Colors
+
+- Name and Type: Process Cyan; Angle: 45.000; Lines/Inch: 60.000
+- Name and Type: Process Magenta; Angle: 45.000; Lines/Inch: 60.000
+- Name and Type: Process Yellow; Angle: 45.000; Lines/Inch: 60.000
+- Name and Type: Process Black; Angle: 45.000; Lines/Inch: 60.000
+- Name and Type: PANTONE 129 C; Angle: 45.000; Lines/Inch: 60.000
+- Name and Type: PANTONE 166 C; Angle: 45.000; Lines/Inch: 60.000
+- Name and Type: PANTONE 3015 C 3; Angle: 45.000; Lines/Inch: 60.000
+- Name and Type: PANTONE Cool Gray 10 C; Angle: 45.000; Lines/Inch: 60.000
+
+
+LINKS AND IMAGES
+(Missing & Embedded Links Only)
+Links and Images: 2 Links Found; 0 Modified, 0 Missing 0 Inaccessible
+Images: 0 Embedded, 0 use RGB color space
+
+
+PRINT SETTINGS
+PPD: Xerox Phaser 7400DN, (Phaser 7400DN (00:00:aa:91:0f:8c))
+Printing To: Printer
+Number of Copies: 1
+Reader Spreads: No
+Even/Odd Pages: Both
+Pages: All
+Proof: No
+Tiling: None
+Scale: Scale to fit page
+Page Position: Center
+Print Layers: Visible & Printable Layers
+Printer's Marks: Crops, Bleeds, Page Info, Registration, Color Bars
+Bleed: 0 px, 0 px, 0 px, 0 px
+Color: Composite CMYK
+Trapping Mode: None
+Send Image Data: Optimized Subsampling
+OPI/DCS Image Replacement: No
+Page Size: Custom: 1366 px x 1300 px
+Paper Dimensions: 792 px x 1224 px
+Orientation: Portrait
+Negative: No
+Flip Mode: Off
+
+
+FILE PACKAGE LIST
+
+1. EventRegistration.indd; type: Adobe InDesign publication; size: 3308K
+2. Aleo-Bold.otf; type: Font file; size: 228K
+3. PTS75F.ttf; type: Font file; size: 447K
+4. PTSans.ttc; type: Font file; size: 2702K

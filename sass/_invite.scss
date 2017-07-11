@@ -1,0 +1,84 @@
+#invite {
+   #{$a-tags} {
+       color: $text_main;
+   }
+    .title {
+        background-color: $mm4_gray;
+    }
+    .invite-content{
+        .desc {
+            font-family: $bold-font;
+            text-transform: uppercase;
+            color: $mm4_blue;
+        }
+        .info {
+            font-family: $regular-font;
+        }
+    }
+    @include respond-to(iphone) {
+        clear: both;
+        width: 100%;
+        h1 {
+            font-size: $h1-mobile-font;
+        }
+        .invite-content {
+            padding: 0 10px;
+            font-size: .9em;
+            .desc {
+                width: 10%;
+                float: left;
+                clear: left;
+                padding-bottom: 40px;
+            }
+            .info {
+                width: 70%;
+                float: right;
+                padding-bottom: 10px;
+                text-align: left;
+            }
+        }
+    }
+    @include respond-to(mobile) {
+        .invite-content {
+            .desc {
+                width: 20%;
+                margin-left: 30px;
+                padding-bottom: 10px;
+            }
+            .info {
+                width: 60%;
+                float: left;
+                padding-bottom: 10px;
+                text-align: left;
+            }
+        }
+    }
+    @include respond-to(tablet) {
+        clear: both;
+        float: left;
+        width: 50%;
+        .invite-content {
+            .info {
+                padding-left: 10px;
+                width: 70%;
+            }
+        }
+    }
+    @include respond-to(laptop) {
+       .invite-content {
+            .desc {
+                width: 15%;
+            }
+        }
+    }
+    @include respond-to(desktop) {
+        .invite-content {
+                .desc {
+                    width: 10%;
+                }
+                .info {
+                    padding-left: 30px;
+                }
+        }
+    }
+}
