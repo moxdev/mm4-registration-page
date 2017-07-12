@@ -7,7 +7,7 @@
   }
 
   .announcement-wrapper {
-    @include full-padding;
+    @include padding-left-right;
 
     ul {
       list-style-type: none;
@@ -66,7 +66,7 @@
     }
 
     .event-details-wrapper {
-      @include full-padding;
+      @include padding-left-right;
 
       .list-header {
         font-family: $font__bold;

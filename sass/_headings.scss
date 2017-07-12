@@ -7,21 +7,21 @@ h1 {
   @include reset;
   color: $color__mm4-blue;
   font-family: $font__heading;
-  line-height: 1.2;
-  margin-top: .5em;
+  line-height: 1;
   @include font-smooth;
 }
+
 h2 {
   @include reset;
   font-family: $font__heading;
   color: $color__mm4-white;
-  line-height: 1.2;
+  line-height: 1;
   @include font-smooth;
 }
 
 h2.section-heading {
   text-align: center;
-  padding: .2em;
-  font-size: 2.3em;
+  padding: .25em;
+  font-size: 1.6em;
   letter-spacing: 1px;
 }

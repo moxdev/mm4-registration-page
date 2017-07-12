@@ -1,0 +1,20 @@
+footer {
+  background-color: $color__mm4-blue;
+  @include full-padding;
+
+  .footer-logos {
+    #mm4 {
+      width: 120px;
+    }
+
+    #wbenc {
+      width: 54px;
+      padding-bottom: 5px;
+    }
+
+    #google-partner {
+      width: 59px;
+      padding-bottom: 5px;
+    }
+  }
+}
