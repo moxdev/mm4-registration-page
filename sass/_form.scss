@@ -1,0 +1,55 @@
+form {
+
+  input,
+  label,
+  textarea {
+    display: block;
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    color: #fff;
+    background-color: $color__mm4-orange;
+    border: none;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-size: .9em;
+    appearance: none;
+
+  }
+
+  fieldset {
+    border: none;
+    @include reset;
+  }
+
+  .checkbox-highlight {
+    color: $color__mm4-yellow;
+    display: block;
+    margin-bottom: .2em;
+  }
+
+  ul {
+    list-style-type: none;
+    @include reset;
+
+    li {
+      position: relative;
+      margin: .5em 0;
+    }
+
+    input {
+      position: absolute;
+      top: 3px;
+      left: 0;
+
+    }
+
+    label {
+      display: block;
+      position: relative;
+      padding-left: 2em;
+    }
+  }
+
+}

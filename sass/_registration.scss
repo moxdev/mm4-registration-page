@@ -1,3 +1,43 @@
+#registration {
+  background-color: $color__mm4-blue;
+  color: #fff;
+  h2 {
+    background-color: $color__mm4-yellow;
+  }
+
+  .registration-wrapper {
+    @include full-padding;
+  }
+
+  #attending-section {
+
+    h3 {
+      color: $color__mm4-yellow;
+    }
+
+  }
+
+  #form-section {
+    @include padding-top-bottom;
+
+    form {
+      padding-bottom: 2em;
+    }
+
+    label {
+      font-family: $font__bold;
+      @include font-smooth;
+      margin: .5em 0;
+    }
+
+  }
+
+
+}
+
+
+
+
 // #registration {
 //     clear: both;
 //     background-color: $mm4_blue;

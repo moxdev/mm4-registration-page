@@ -35,22 +35,13 @@ textarea {
   font-family: $font__main;
   line-height: $font__line-height-body;
 
+  @include respond-to('575') {
+    line-height: $font__line-height-body * 1.0425;
+  }
+
   @include respond-to('1150') {
     line-height: $font__line-height-body * 1.0625;
   }
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-// p {
-//   font-family: $font__main;
-// }
-
-.title {
-  width: 100%;
 }
 
 // for displaying the Read More >> sections
