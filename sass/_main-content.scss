@@ -1,16 +1,19 @@
 #main-content {
+  h2 {
+    text-align: center;
+    padding: .2em;
+    font-size: 2.3em;
+    letter-spacing: 1px;
+  }
 
   #announcement {
     h2 {
-      background-color: $mm4_gray;
-      text-align: center;
-      padding: .2em 0;
+      background-color: $color__mm4-gray;
     }
   }
 
   .announcement-wrapper {
-    @include padding-left-right;
-    @include section-padding;
+    @include full-padding;
 
     ul {
       list-style-type: none;
@@ -25,7 +28,7 @@
           content: '';
           font-family: $font__bold;
           text-transform: uppercase;
-          color: $mm4_blue;
+          color: $color__mm4-blue;
           position: absolute;
           top: 0;
           left: 0;
@@ -40,8 +43,12 @@
       }
 
       .what {
+        font-family: $font__bold;
         &:before {
           content: 'what:';
+        }
+        span {
+          font-family: $font__main;
         }
       }
 
@@ -58,88 +65,24 @@
       }
     }
   }
-}
 
+  #event-details {
+    h2 {
+      background-color: $color__mm4-orange;
+    }
 
-#invite {
-   #{$a-tags} {
-       color: $text_main;
-   }
-    .title {
-        background-color: $mm4_gray;
-    }
-    .invite-content{
-        .desc {
+    .event-details-wrapper {
+      @include full-padding;
 
-        }
-        .info {
-            font-family: $font__main;
-        }
+      .list-header {
+        font-family: $font__bold;
+        margin-bottom: 0;
+      }
+
+      ul {
+        line-height: 1.7;
+        margin-top: 10px;
+      }
     }
-    @include respond-to('320') {
-        clear: both;
-        width: 100%;
-        h1 {
-            font-size: $h1-mobile-font;
-        }
-        .invite-content {
-            padding: 0 10px;
-            font-size: .9em;
-            .desc {
-                width: 10%;
-                float: left;
-                clear: left;
-                padding-bottom: 40px;
-            }
-            .info {
-                width: 70%;
-                float: right;
-                padding-bottom: 10px;
-                text-align: left;
-            }
-        }
-    }
-    @include respond-to('450') {
-        .invite-content {
-            .desc {
-                width: 20%;
-                margin-left: 30px;
-                padding-bottom: 10px;
-            }
-            .info {
-                width: 60%;
-                float: left;
-                padding-bottom: 10px;
-                text-align: left;
-            }
-        }
-    }
-    @include respond-to('750') {
-        clear: both;
-        float: left;
-        width: 50%;
-        .invite-content {
-            .info {
-                padding-left: 10px;
-                width: 70%;
-            }
-        }
-    }
-    @include respond-to('950') {
-       .invite-content {
-            .desc {
-                width: 15%;
-            }
-        }
-    }
-    @include respond-to('1150') {
-        .invite-content {
-                .desc {
-                    width: 10%;
-                }
-                .info {
-                    padding-left: 30px;
-                }
-        }
-    }
+  }
 }

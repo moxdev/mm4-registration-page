@@ -1,46 +1,46 @@
-#about {
-    .title {
-        background-color: $mm4-orange;
-    }
-    .about-content {
-        p {
-            font-family: $font__main;
-        }
-        h4 {
-            color: $mm4_orange;
-        }
-        h3 {
-            font-family: $font__bold;
-            text-transform: uppercase;
-            color: $mm4-blue;
-        }
-        a {
-            color: $mm4-orange;
-            text-decoration: none;
-        }
-        .blue-words {
-            color: $mm4_blue;
-        }
-    }
-    @include respond-to('320') {
-        width: 100%;
-        clear: both;
-        h1 {
-            font-size: $h1-mobile-font;
-        }
-        .about-content {
-            padding: 0 10px;
-        }
-        h3 {
-            font-size: 1em;
-        }
-    }
-    @include respond-to('750') {
-       float: right;
-       width: 50%;
-       clear: right;
-       .read-more-content {
-            padding-right: 10px;
-       }
-    }
-}
+// #about {
+//     .title {
+//         background-color: $mm4-orange;
+//     }
+//     .about-content {
+//         p {
+//             font-family: $font__main;
+//         }
+//         h4 {
+//             color: $mm4_orange;
+//         }
+//         h3 {
+//             font-family: $font__bold;
+//             text-transform: uppercase;
+//             color: $mm4-blue;
+//         }
+//         a {
+//             color: $mm4-orange;
+//             text-decoration: none;
+//         }
+//         .blue-words {
+//             color: $mm4_blue;
+//         }
+//     }
+//     @include respond-to('320') {
+//         width: 100%;
+//         clear: both;
+//         h1 {
+//             font-size: $h1-mobile-font;
+//         }
+//         .about-content {
+//             padding: 0 10px;
+//         }
+//         h3 {
+//             font-size: 1em;
+//         }
+//     }
+//     @include respond-to('750') {
+//        float: right;
+//        width: 50%;
+//        clear: right;
+//        .read-more-content {
+//             padding-right: 10px;
+//        }
+//     }
+// }

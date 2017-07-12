@@ -1,11 +1,14 @@
-$mm4_orange: #e75200;
-$mm4_yellow: #ffd456;
-$mm4_blue: #0072ae;
-$mm4_gray: #807e82;
-$mm4_white: #FFF;
+// Brand Colors
+$color__mm4-orange: #e75200;
+$color__mm4-yellow: #ffd456;
+$color__mm4-blue: #0072ae;
+$color__mm4-gray: #807e82;
+$color__mm4-white: #FFF;
 
-$title_color: $mm4_white;
-$background_color: $mm4_white;
+// Background Colors
+$color__background_blue: $color__mm4-blue;
+$color__background_white: $color__mm4-white;
 
-$text_main:#000;
+// Text Colors
+$color__text-main:#222;
 
