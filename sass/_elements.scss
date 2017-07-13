@@ -5,3 +5,7 @@ ul {
 
 // Links (color, visited, hover, active)
 @include linx($color__mm4-blue, #111, $color__mm4-orange, #111);
+
+p {
+  margin: .5em 0;
+}

@@ -1,20 +1,58 @@
 footer {
   background-color: $color__mm4-blue;
   @include full-padding;
+  color: #fff;
+  font-size: .9em;
+
+  @include linx(#fff, #fff, #fff, #fff);
+
+  .footer-wrapper {
+  }
 
   .footer-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 261px;
+    margin-bottom: .5em;
+    @include margin-auto;
+
+    a, span {
+      flex: 1 1 30%;
+      display: block;
+    }
+
+    img {
+      @include center-block;
+      overflow: hidden;
+    }
+
     #mm4 {
-      width: 120px;
+      max-width: 120px;
     }
 
     #wbenc {
-      width: 54px;
-      padding-bottom: 5px;
+      max-width: 63px;
     }
 
     #google-partner {
-      width: 59px;
-      padding-bottom: 5px;
+      max-width: 71px;
     }
+  }
+
+  .footer-social {
+    padding: .5em 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 261px;
+    @include margin-auto;
+
+    svg {
+      max-width: 30px;
+    }
+  }
+
+  .footer-address {
+    text-align: center;
   }
 }

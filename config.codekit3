@@ -1721,6 +1721,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/footer-background-image-millennium.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/footer-background-image-millennium.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/google-partner.gif": {
 		"ft": 4194304,
 		"iS": 1243,
@@ -1739,6 +1749,162 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/images\/icon-footer-millennium.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icon-footer-millennium.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icons\/icon-facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/icon-facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icons\/icon-google-plus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/icon-google-plus.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icons\/icon-instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/icon-instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icons\/icon-linkedin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/icon-linkedin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icons\/icon-pinterest.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/icon-pinterest.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icons\/icon-twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/icon-twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icons\/kraken-1499964420576.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/icons\/kraken-1499964420576.zip",
+		"oF": 0
+		},
+	"\/images\/icons\/kraken-1499964420576\/icon-facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/kraken-1499964420576\/icon-facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icons\/kraken-1499964420576\/icon-google-plus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/kraken-1499964420576\/icon-google-plus.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icons\/kraken-1499964420576\/icon-instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/kraken-1499964420576\/icon-instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icons\/kraken-1499964420576\/icon-linkedin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/kraken-1499964420576\/icon-linkedin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icons\/kraken-1499964420576\/icon-pinterest.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/kraken-1499964420576\/icon-pinterest.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icons\/kraken-1499964420576\/icon-twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/kraken-1499964420576\/icon-twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icons\/kraken-1499964420576\/pinterest-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/kraken-1499964420576\/pinterest-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/icons\/pinterest-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/pinterest-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/instagram.png": {
 		"ft": 32768,
@@ -1761,6 +1927,218 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/images\/logo-footer-google-partner.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-footer-google-partner.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo-footer-mm4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-footer-mm4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo-footer-wbenc.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-footer-wbenc.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo-kraken\/footer-background-image-millennium.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-kraken\/footer-background-image-millennium.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-CMYK-search-mobile-disp.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-CMYK-search-mobile-disp.ai",
+		"oF": 0
+		},
+	"\/images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-CMYK-search-mobile-disp.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-CMYK-search-mobile-disp.eps",
+		"oF": 0
+		},
+	"\/images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-CMYK-search-mobile-disp.jpg": {
+		"ft": 16384,
+		"iS": 639379,
+		"oA": 0,
+		"oAP": "\/images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-CMYK-search-mobile-disp.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.ai",
+		"oF": 0
+		},
+	"\/images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.eps",
+		"oF": 0
+		},
+	"\/images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.jpg": {
+		"ft": 16384,
+		"iS": 71819,
+		"oA": 0,
+		"oAP": "\/images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.png": {
+		"ft": 32768,
+		"iS": 28934,
+		"oA": 0,
+		"oAP": "\/images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logo-kraken\/gpart-01.png": {
+		"ft": 32768,
+		"iS": 2926,
+		"oA": 0,
+		"oAP": "\/images\/logo-kraken\/gpart-01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logo-kraken\/gpart-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-kraken\/gpart-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo-kraken\/mm4-footer-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-kraken\/mm4-footer-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo-kraken\/v2-google-partner-search-mobile-disp-13592591.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/logo-kraken\/v2-google-partner-search-mobile-disp-13592591.zip",
+		"oF": 0
+		},
+	"\/images\/logo-kraken\/wbenc-whiate.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/logo-kraken\/wbenc-whiate.ai",
+		"oF": 0
+		},
+	"\/images\/logo-kraken\/wbenc-white-200-optimized.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-kraken\/wbenc-white-200-optimized.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo-kraken\/wbenc-white-200.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/logo-kraken\/wbenc-white-200.ai",
+		"oF": 0
+		},
+	"\/images\/logo-kraken\/wbenc-white-200.png": {
+		"ft": 32768,
+		"iS": 5201,
+		"oA": 0,
+		"oAP": "\/images\/logo-kraken\/wbenc-white-200.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logo-kraken\/wbenc-white-200.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-kraken\/wbenc-white-200.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo-kraken\/WBENC-womensbusinessenterprise.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-kraken\/WBENC-womensbusinessenterprise.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo-kraken\/wbenc.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/logo-kraken\/wbenc.ai",
+		"oF": 0
+		},
+	"\/images\/logo-kraken\/wbenc.png": {
+		"ft": 32768,
+		"iS": 49020,
+		"oA": 0,
+		"oAP": "\/images\/logo-kraken\/wbenc.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logo-kraken\/wbenc.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-kraken\/wbenc.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/logo.png": {
 		"ft": 32768,
@@ -1788,6 +2166,146 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/mm_footer_W.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new-social-icons\/google-plus-logo-on-black-background.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-social-icons\/google-plus-logo-on-black-background.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new-social-icons\/icon-facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-social-icons\/icon-facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new-social-icons\/icon-google-plus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-social-icons\/icon-google-plus.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new-social-icons\/icon-instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-social-icons\/icon-instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new-social-icons\/icon-linkedin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-social-icons\/icon-linkedin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new-social-icons\/icon-pinterest.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-social-icons\/icon-pinterest.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new-social-icons\/icon-twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-social-icons\/icon-twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new-social-icons\/if_circle-google-plus_317751.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-social-icons\/if_circle-google-plus_317751.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new-social-icons\/if_pinterest_317731.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-social-icons\/if_pinterest_317731.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new-social-icons\/if_square-facebook_317727.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-social-icons\/if_square-facebook_317727.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new-social-icons\/if_square-instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-social-icons\/if_square-instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new-social-icons\/if_square-linkedin_317725.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-social-icons\/if_square-linkedin_317725.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new-social-icons\/if_square-twitter_317723.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-social-icons\/if_square-twitter_317723.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new-social-icons\/pinterest-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-social-icons\/pinterest-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

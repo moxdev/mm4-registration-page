@@ -25,3 +25,9 @@ h2.section-heading {
   font-size: 1.6em;
   letter-spacing: 1px;
 }
+
+h3 {
+  @include reset;
+  color: $color__mm4-yellow;
+
+}

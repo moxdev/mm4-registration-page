@@ -1,18 +1,17 @@
 #registration {
   background-color: $color__mm4-blue;
-  color: #fff;
+
   h2 {
     background-color: $color__mm4-yellow;
   }
 
   .registration-wrapper {
-    @include padding-left-right;
+    @include full-padding;
+
   }
 
   #attending-section {
-    h3 {
-      color: $color__mm4-yellow;
-    }
+
   }
 
   #form-section {
