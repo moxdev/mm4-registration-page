@@ -55,14 +55,27 @@ body {
 }
 
 .wrapper {
-  background-color: $color__background_white;
   position: relative;
 }
 
 .content {
   background-image: url(../images/footer-background-image-millennium.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom 0px left -21%;
+
+  @include respond-to('450') {
+    background-position: bottom 0px left -70%;
+
+  }
+
+  @include respond-to('575') {
+    background-position: bottom right;
+    background-size: 50%;
+  }
+}
+
+header {
+  background-color: #fff;
 }
 
 .background-image-wrapper {

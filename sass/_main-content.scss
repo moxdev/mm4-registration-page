@@ -1,72 +1,73 @@
-#main-content {
+.main-content {
 
   #announcement {
+    background-color: $color__background_white;
+
     h2 {
       background-color: $color__mm4-gray;
     }
-  }
 
-  .announcement-wrapper {
-    @include padding-left-right;
+    .announcement-wrapper {
+      @include full-padding;
 
-    ul {
-      list-style-type: none;
-      @include reset;
-      li {
-        position: relative;
-        padding-left: 4em;
-        margin: 1em 0;
-        line-height: 1.3;
+      ul {
+        list-style-type: none;
+        @include reset;
 
-        &:before {
-          content: '';
-          font-family: $font__bold;
-          text-transform: uppercase;
-          color: $color__mm4-blue;
-          position: absolute;
-          top: 0;
-          left: 0;
-          // margin-right: 2em;
+        li {
+          position: relative;
+          padding-left: 4em;
+          line-height: 1.3;
+          margin-bottom: .5em;
+
+          &:before {
+            content: '';
+            font-family: $font__bold;
+            text-transform: uppercase;
+            color: $color__mm4-blue;
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
         }
 
-        a {
-        }
-      }
-      span {
-        display: block;
-      }
-
-      .what {
-        font-family: $font__bold;
-        &:before {
-          content: 'what:';
-        }
         span {
-          font-family: $font__main;
+          display: block;
         }
-      }
 
-      .when {
-        &:before {
-          content: 'when:';
+        .what {
+          font-family: $font__bold;
+          &:before {
+            content: 'what:';
+          }
+          span {
+            font-family: $font__main;
+          }
         }
-      }
 
-      .where {
-        &:before {
-          content: 'where:';
+        .when {
+          &:before {
+            content: 'when:';
+          }
+        }
+
+        .where {
+          &:before {
+            content: 'where:';
+          }
         }
       }
     }
   }
 
   #event-details {
+    background-color: $color__background_white;
     h2 {
       background-color: $color__mm4-orange;
     }
 
     .event-details-wrapper {
-      @include padding-left-right;
+      @include full-padding;
 
       .list-header {
         font-family: $font__bold;
@@ -77,6 +78,40 @@
         line-height: 1.7;
         margin-top: 10px;
       }
+    }
+  }
+
+  #registration {
+    h2 {
+      background-color: $color__mm4-yellow;
+    }
+
+    .registration-wrapper {
+      @include full-padding;
+      color: #fff;
+    }
+
+    #form-section {
+      @include padding-top-bottom;
+
+      form {
+        padding-bottom: 2em;
+      }
+
+      label {
+        font-family: $font__bold;
+        @include font-smooth;
+        margin: .5em 0;
+      }
+    }
+  }
+
+  @include respond-to('650') {
+    .announcement-wrapper,
+    .event-details-wrapper,
+    #attending-section,
+    #form-section {
+      @include container-sm;
     }
   }
 }

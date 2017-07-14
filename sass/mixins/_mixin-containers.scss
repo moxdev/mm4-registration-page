@@ -1,4 +1,10 @@
 // Container Max-Width Settings
+@mixin container-sm {
+  max-width: $width_max-content-width-sm;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @mixin container {
   max-width: $width_max-content-width;
   margin-left: auto;

@@ -2,6 +2,7 @@ $breakpoints: (
   '320'  : ( min-width:  320px ),
   '450'  : ( min-width:  450px ),
   '575'  : ( min-width:  575px ),
+  '650'  : ( min-width:  650px ),
   '750'  : ( min-width:  750px ),
   '950'  : ( min-width:  950px ),
   '1150' : ( min-width: 1150px ),
@@ -12,6 +13,7 @@ $breakpoints: (
   '2400' : ( min-width: 2400px )
 );
 
+$width_max-content-width-sm: 600px;
 $width__max-width: 1200px;
 $width__max-width-lg: 1500px;
 $width__max-width-xlg: 1800px;

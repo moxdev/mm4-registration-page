@@ -565,37 +565,38 @@ form input[type="submit"] {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  padding: 6px 10px;
 }
-/* line 21, ../sass/_form.scss */
+/* line 22, ../sass/_form.scss */
 form fieldset {
   border: none;
   margin: 0;
   padding: 0;
 }
-/* line 26, ../sass/_form.scss */
+/* line 27, ../sass/_form.scss */
 form .checkbox-highlight {
   color: #ffd456;
   display: block;
   margin-bottom: .2em;
 }
-/* line 32, ../sass/_form.scss */
+/* line 33, ../sass/_form.scss */
 form ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 36, ../sass/_form.scss */
+/* line 37, ../sass/_form.scss */
 form ul li {
   position: relative;
   margin: .5em 0;
 }
-/* line 41, ../sass/_form.scss */
+/* line 42, ../sass/_form.scss */
 form ul input {
   position: absolute;
   top: 3px;
   left: 0;
 }
-/* line 48, ../sass/_form.scss */
+/* line 49, ../sass/_form.scss */
 form ul label {
   display: block;
   position: relative;
@@ -741,18 +742,35 @@ body {
 
 /* line 57, ../sass/_site.scss */
 .wrapper {
-  background-color: #FFF;
   position: relative;
 }
 
-/* line 62, ../sass/_site.scss */
+/* line 61, ../sass/_site.scss */
 .content {
   background-image: url(../images/footer-background-image-millennium.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-position: bottom 0px left -21%;
+}
+@media (min-width: 450px) {
+  /* line 61, ../sass/_site.scss */
+  .content {
+    background-position: bottom 0px left -70%;
+  }
+}
+@media (min-width: 575px) {
+  /* line 61, ../sass/_site.scss */
+  .content {
+    background-position: bottom right;
+    background-size: 50%;
+  }
 }
 
-/* line 72, ../sass/_site.scss */
+/* line 77, ../sass/_site.scss */
+header {
+  background-color: #fff;
+}
+
+/* line 85, ../sass/_site.scss */
 .flex-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -762,7 +780,7 @@ body {
           justify-content: space-between;
 }
 
-/* line 77, ../sass/_site.scss */
+/* line 90, ../sass/_site.scss */
 .flex-child {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 50%;
@@ -813,44 +831,57 @@ header h1 {
 /*--------------------------------------------------------------
 # Main Content
 --------------------------------------------------------------*/
-/* line 4, ../sass/_main-content.scss */
-#main-content #announcement h2 {
+/* line 3, ../sass/_main-content.scss */
+.main-content #announcement {
+  background-color: #FFF;
+}
+/* line 6, ../sass/_main-content.scss */
+.main-content #announcement h2 {
   background-color: #807e82;
 }
-/* line 9, ../sass/_main-content.scss */
-#main-content .announcement-wrapper {
-  padding-left: 1.375rem;
+/* line 10, ../sass/_main-content.scss */
+.main-content #announcement .announcement-wrapper {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
   padding-right: 1.375rem;
+  padding-left: 1.375rem;
 }
 @media (min-width: 450px) {
-  /* line 9, ../sass/_main-content.scss */
-  #main-content .announcement-wrapper {
+  /* line 10, ../sass/_main-content.scss */
+  .main-content #announcement .announcement-wrapper {
     padding-left: 1.75rem;
     padding-right: 1.75rem;
   }
 }
+@media (min-width: 750px) {
+  /* line 10, ../sass/_main-content.scss */
+  .main-content #announcement .announcement-wrapper {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
 @media (min-width: 1150px) {
-  /* line 9, ../sass/_main-content.scss */
-  #main-content .announcement-wrapper {
+  /* line 10, ../sass/_main-content.scss */
+  .main-content #announcement .announcement-wrapper {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
   }
 }
-/* line 12, ../sass/_main-content.scss */
-#main-content .announcement-wrapper ul {
+/* line 13, ../sass/_main-content.scss */
+.main-content #announcement .announcement-wrapper ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 15, ../sass/_main-content.scss */
-#main-content .announcement-wrapper ul li {
+/* line 17, ../sass/_main-content.scss */
+.main-content #announcement .announcement-wrapper ul li {
   position: relative;
   padding-left: 4em;
-  margin: 1em 0;
   line-height: 1.3;
+  margin-bottom: .5em;
 }
-/* line 21, ../sass/_main-content.scss */
-#main-content .announcement-wrapper ul li:before {
+/* line 23, ../sass/_main-content.scss */
+.main-content #announcement .announcement-wrapper ul li:before {
   content: '';
   font-family: "PTSans-Bold";
   text-transform: uppercase;
@@ -859,137 +890,157 @@ header h1 {
   top: 0;
   left: 0;
 }
-/* line 35, ../sass/_main-content.scss */
-#main-content .announcement-wrapper ul span {
+/* line 34, ../sass/_main-content.scss */
+.main-content #announcement .announcement-wrapper ul span {
   display: block;
 }
-/* line 39, ../sass/_main-content.scss */
-#main-content .announcement-wrapper ul .what {
+/* line 38, ../sass/_main-content.scss */
+.main-content #announcement .announcement-wrapper ul .what {
   font-family: "PTSans-Bold";
 }
-/* line 41, ../sass/_main-content.scss */
-#main-content .announcement-wrapper ul .what:before {
+/* line 40, ../sass/_main-content.scss */
+.main-content #announcement .announcement-wrapper ul .what:before {
   content: 'what:';
 }
-/* line 44, ../sass/_main-content.scss */
-#main-content .announcement-wrapper ul .what span {
+/* line 43, ../sass/_main-content.scss */
+.main-content #announcement .announcement-wrapper ul .what span {
   font-family: "PTSans-Regular";
 }
-/* line 50, ../sass/_main-content.scss */
-#main-content .announcement-wrapper ul .when:before {
+/* line 49, ../sass/_main-content.scss */
+.main-content #announcement .announcement-wrapper ul .when:before {
   content: 'when:';
 }
-/* line 56, ../sass/_main-content.scss */
-#main-content .announcement-wrapper ul .where:before {
+/* line 55, ../sass/_main-content.scss */
+.main-content #announcement .announcement-wrapper ul .where:before {
   content: 'where:';
 }
-/* line 64, ../sass/_main-content.scss */
-#main-content #event-details h2 {
+/* line 63, ../sass/_main-content.scss */
+.main-content #event-details {
+  background-color: #FFF;
+}
+/* line 65, ../sass/_main-content.scss */
+.main-content #event-details h2 {
   background-color: #e75200;
 }
-/* line 68, ../sass/_main-content.scss */
-#main-content #event-details .event-details-wrapper {
-  padding-left: 1.375rem;
+/* line 69, ../sass/_main-content.scss */
+.main-content #event-details .event-details-wrapper {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
   padding-right: 1.375rem;
+  padding-left: 1.375rem;
 }
 @media (min-width: 450px) {
-  /* line 68, ../sass/_main-content.scss */
-  #main-content #event-details .event-details-wrapper {
+  /* line 69, ../sass/_main-content.scss */
+  .main-content #event-details .event-details-wrapper {
     padding-left: 1.75rem;
     padding-right: 1.75rem;
   }
 }
+@media (min-width: 750px) {
+  /* line 69, ../sass/_main-content.scss */
+  .main-content #event-details .event-details-wrapper {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
 @media (min-width: 1150px) {
-  /* line 68, ../sass/_main-content.scss */
-  #main-content #event-details .event-details-wrapper {
+  /* line 69, ../sass/_main-content.scss */
+  .main-content #event-details .event-details-wrapper {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
   }
 }
-/* line 71, ../sass/_main-content.scss */
-#main-content #event-details .event-details-wrapper .list-header {
+/* line 72, ../sass/_main-content.scss */
+.main-content #event-details .event-details-wrapper .list-header {
   font-family: "PTSans-Bold";
   margin-bottom: 0;
 }
-/* line 76, ../sass/_main-content.scss */
-#main-content #event-details .event-details-wrapper ul {
+/* line 77, ../sass/_main-content.scss */
+.main-content #event-details .event-details-wrapper ul {
   line-height: 1.7;
   margin-top: 10px;
 }
-
-/*--------------------------------------------------------------
-# Registration
---------------------------------------------------------------*/
-/* line 1, ../sass/_registration.scss */
-#registration {
-  background-color: #0072ae;
-}
-/* line 4, ../sass/_registration.scss */
-#registration h2 {
+/* line 85, ../sass/_main-content.scss */
+.main-content #registration h2 {
   background-color: #ffd456;
 }
-/* line 8, ../sass/_registration.scss */
-#registration .registration-wrapper {
-  padding-top: 1rem;
+/* line 89, ../sass/_main-content.scss */
+.main-content #registration .registration-wrapper {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
   padding-right: 1.375rem;
-  padding-bottom: 1rem;
   padding-left: 1.375rem;
+  color: #fff;
 }
 @media (min-width: 450px) {
-  /* line 8, ../sass/_registration.scss */
-  #registration .registration-wrapper {
+  /* line 89, ../sass/_main-content.scss */
+  .main-content #registration .registration-wrapper {
     padding-left: 1.75rem;
     padding-right: 1.75rem;
   }
 }
 @media (min-width: 750px) {
-  /* line 8, ../sass/_registration.scss */
-  #registration .registration-wrapper {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+  /* line 89, ../sass/_main-content.scss */
+  .main-content #registration .registration-wrapper {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
 @media (min-width: 1150px) {
-  /* line 8, ../sass/_registration.scss */
-  #registration .registration-wrapper {
+  /* line 89, ../sass/_main-content.scss */
+  .main-content #registration .registration-wrapper {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
   }
 }
-/* line 17, ../sass/_registration.scss */
-#registration #form-section {
+/* line 94, ../sass/_main-content.scss */
+.main-content #registration #form-section {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 @media (min-width: 750px) {
-  /* line 17, ../sass/_registration.scss */
-  #registration #form-section {
+  /* line 94, ../sass/_main-content.scss */
+  .main-content #registration #form-section {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
 }
-/* line 20, ../sass/_registration.scss */
-#registration #form-section form {
+/* line 97, ../sass/_main-content.scss */
+.main-content #registration #form-section form {
   padding-bottom: 2em;
 }
-/* line 24, ../sass/_registration.scss */
-#registration #form-section label {
+/* line 101, ../sass/_main-content.scss */
+.main-content #registration #form-section label {
   font-family: "PTSans-Bold";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: .5em 0;
 }
+@media (min-width: 650px) {
+  /* line 110, ../sass/_main-content.scss */
+  .main-content .announcement-wrapper,
+  .main-content .event-details-wrapper,
+  .main-content #attending-section,
+  .main-content #form-section {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
+/*--------------------------------------------------------------
+# Registration
+--------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 /* line 1, ../sass/_footer.scss */
 footer {
-  background-color: #0072ae;
-  padding-top: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
   padding-right: 1.375rem;
-  padding-bottom: 1rem;
   padding-left: 1.375rem;
+  padding-bottom: 3em;
   color: #fff;
   font-size: .9em;
 }
@@ -1003,8 +1054,8 @@ footer {
 @media (min-width: 750px) {
   /* line 1, ../sass/_footer.scss */
   footer {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
 @media (min-width: 1150px) {
@@ -1030,7 +1081,7 @@ footer a:hover {
 footer a:active {
   color: #fff;
 }
-/* line 12, ../sass/_footer.scss */
+/* line 13, ../sass/_footer.scss */
 footer .footer-logos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1046,33 +1097,33 @@ footer .footer-logos {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 20, ../sass/_footer.scss */
+/* line 21, ../sass/_footer.scss */
 footer .footer-logos a, footer .footer-logos span {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 30%;
           flex: 1 1 30%;
   display: block;
 }
-/* line 25, ../sass/_footer.scss */
+/* line 26, ../sass/_footer.scss */
 footer .footer-logos img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
 }
-/* line 30, ../sass/_footer.scss */
+/* line 31, ../sass/_footer.scss */
 footer .footer-logos #mm4 {
   max-width: 120px;
 }
-/* line 34, ../sass/_footer.scss */
+/* line 35, ../sass/_footer.scss */
 footer .footer-logos #wbenc {
   max-width: 63px;
 }
-/* line 38, ../sass/_footer.scss */
+/* line 39, ../sass/_footer.scss */
 footer .footer-logos #google-partner {
   max-width: 71px;
 }
-/* line 43, ../sass/_footer.scss */
+/* line 44, ../sass/_footer.scss */
 footer .footer-social {
   padding: .5em 0;
   display: -webkit-box;
@@ -1085,11 +1136,11 @@ footer .footer-social {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 50, ../sass/_footer.scss */
+/* line 51, ../sass/_footer.scss */
 footer .footer-social svg {
   max-width: 30px;
 }
-/* line 55, ../sass/_footer.scss */
+/* line 56, ../sass/_footer.scss */
 footer .footer-address {
   text-align: center;
 }

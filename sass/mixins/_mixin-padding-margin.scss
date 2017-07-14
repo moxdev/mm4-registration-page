@@ -1,8 +1,8 @@
 // Full Padding Left-Right-Top-Bottom
 @mixin full-padding() {
-  padding-top: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
   padding-right: 1.375rem;
-  padding-bottom: 1rem;
   padding-left: 1.375rem;
 
   @include respond-to('450') {
@@ -11,8 +11,8 @@
   }
 
   @include respond-to('750') {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   @include respond-to('1150') {
