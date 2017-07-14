@@ -114,4 +114,29 @@
       @include container-sm;
     }
   }
+
+  @include respond-to('750') {
+    .flex-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    #announcement,
+    #event-detail {
+      max-width: none;
+      flex: 1 1 50%;
+    }
+
+    #event-details {
+      .event-details-wrapper {
+        p:first-child {
+          margin-top: 0;
+        }
+
+        ul {
+          line-height: 1.5;
+        }
+      }
+    }
+  }
 }

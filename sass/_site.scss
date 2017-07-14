@@ -65,7 +65,6 @@ body {
 
   @include respond-to('450') {
     background-position: bottom 0px left -70%;
-
   }
 
   @include respond-to('575') {
@@ -82,10 +81,6 @@ header {
 
 }
 
-.flex-container {
-  display: flex;
-  justify-content: space-between;
-}
 
 .flex-child {
   flex: 1 1 50%;
