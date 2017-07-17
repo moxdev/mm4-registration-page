@@ -81,8 +81,16 @@ header {
 
 }
 
+.flex-container {
+  @include respond-to('950') {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 
 .flex-child {
-  flex: 1 1 50%;
+  @include respond-to('950') {
+    flex: 1 0 50%;
+  }
 }
 

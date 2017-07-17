@@ -770,11 +770,25 @@ header {
   background-color: #fff;
 }
 
-/* line 85, ../sass/_site.scss */
-.flex-child {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 50%;
-          flex: 1 1 50%;
+@media (min-width: 950px) {
+  /* line 84, ../sass/_site.scss */
+  .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (min-width: 950px) {
+  /* line 91, ../sass/_site.scss */
+  .flex-child {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1018,23 +1032,6 @@ header h1 {
   }
 }
 @media (min-width: 750px) {
-  /* line 119, ../sass/_main-content.scss */
-  .main-content .flex-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  /* line 124, ../sass/_main-content.scss */
-  .main-content #announcement,
-  .main-content #event-detail {
-    max-width: none;
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 50%;
-            flex: 1 1 50%;
-  }
   /* line 132, ../sass/_main-content.scss */
   .main-content #event-details .event-details-wrapper p:first-child {
     margin-top: 0;
@@ -1098,7 +1095,7 @@ footer a:hover {
 footer a:active {
   color: #fff;
 }
-/* line 13, ../sass/_footer.scss */
+/* line 10, ../sass/_footer.scss */
 footer .footer-logos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1114,33 +1111,33 @@ footer .footer-logos {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 21, ../sass/_footer.scss */
+/* line 18, ../sass/_footer.scss */
 footer .footer-logos a, footer .footer-logos span {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 30%;
           flex: 1 1 30%;
   display: block;
 }
-/* line 26, ../sass/_footer.scss */
+/* line 23, ../sass/_footer.scss */
 footer .footer-logos img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
 }
-/* line 31, ../sass/_footer.scss */
+/* line 28, ../sass/_footer.scss */
 footer .footer-logos #mm4 {
   max-width: 120px;
 }
-/* line 35, ../sass/_footer.scss */
+/* line 32, ../sass/_footer.scss */
 footer .footer-logos #wbenc {
   max-width: 63px;
 }
-/* line 39, ../sass/_footer.scss */
+/* line 36, ../sass/_footer.scss */
 footer .footer-logos #google-partner {
   max-width: 71px;
 }
-/* line 44, ../sass/_footer.scss */
+/* line 41, ../sass/_footer.scss */
 footer .footer-social {
   padding: .5em 0;
   display: -webkit-box;
@@ -1153,13 +1150,70 @@ footer .footer-social {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 51, ../sass/_footer.scss */
+/* line 48, ../sass/_footer.scss */
 footer .footer-social svg {
   max-width: 30px;
 }
-/* line 56, ../sass/_footer.scss */
+/* line 53, ../sass/_footer.scss */
 footer .footer-address {
   text-align: center;
+}
+@media (min-width: 950px) {
+  /* line 1, ../sass/_footer.scss */
+  footer {
+    padding-bottom: 4em;
+  }
+  /* line 60, ../sass/_footer.scss */
+  footer .flex-container {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  /* line 64, ../sass/_footer.scss */
+  footer .footer-logos {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+  /* line 69, ../sass/_footer.scss */
+  footer .footer-logos a, footer .footer-logos span {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 33%;
+            flex: 1 1 33%;
+    display: inline-block;
+  }
+  /* line 74, ../sass/_footer.scss */
+  footer .footer-logos img {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* line 79, ../sass/_footer.scss */
+  footer .footer-logos #mm4 {
+    max-width: 220px;
+  }
+  /* line 83, ../sass/_footer.scss */
+  footer .footer-logos #wbenc {
+    max-width: 80px;
+    margin-left: 20px;
+  }
+  /* line 88, ../sass/_footer.scss */
+  footer .footer-logos #google-partner {
+    max-width: 97px;
+  }
+  /* line 93, ../sass/_footer.scss */
+  footer .footer-social {
+    display: block;
+    max-width: none;
+    margin: 0;
+    text-align: right;
+  }
+  /* line 100, ../sass/_footer.scss */
+  footer .footer-address {
+    text-align: right;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

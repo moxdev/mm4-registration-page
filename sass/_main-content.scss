@@ -116,16 +116,16 @@
   }
 
   @include respond-to('750') {
-    .flex-wrapper {
-      display: flex;
-      justify-content: space-between;
-    }
+    // .flex-wrapper {
+    //   display: flex;
+    //   justify-content: space-between;
+    // }
 
-    #announcement,
-    #event-detail {
-      max-width: none;
-      flex: 1 1 50%;
-    }
+    // #announcement,
+    // #event-detail {
+    //   max-width: none;
+    //   flex: 1 1 50%;
+    // }
 
     #event-details {
       .event-details-wrapper {

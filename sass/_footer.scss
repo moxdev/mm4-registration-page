@@ -7,9 +7,6 @@ footer {
 
   @include linx(#fff, #fff, #fff, #fff);
 
-  .footer-wrapper {
-  }
-
   .footer-logos {
     display: flex;
     justify-content: space-between;
@@ -55,5 +52,53 @@ footer {
 
   .footer-address {
     text-align: center;
+  }
+
+  @include respond-to('950') {
+    padding-bottom: 4em;
+
+    .flex-container {
+      align-items:flex-end;
+    }
+
+    .footer-logos {
+      align-items: flex-end;
+      max-width: none;
+      @include reset;
+
+      a, span {
+        flex: 1 1 33%;
+        display: inline-block;
+      }
+
+      img {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      #mm4 {
+        max-width: 220px;
+      }
+
+      #wbenc {
+        max-width: 80px;
+        margin-left: 20px;
+      }
+
+      #google-partner {
+        max-width: 97px;
+      }
+    }
+
+    .footer-social {
+      display: block;
+      max-width: none;
+      margin:0;
+      text-align: right;
+    }
+
+    .footer-address {
+      text-align: right;
+    }
   }
 }
