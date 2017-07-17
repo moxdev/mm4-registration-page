@@ -51,6 +51,15 @@ form {
     }
   }
 
+  @include respond-to('950') {
+    .checkbox-highlight {
+      color: $color__mm4-yellow;
+      display: inline-block;
+      margin-bottom: 0;
+      margin-right: 10px;
+    }
+  }
+
   @include respond-to('1150') {
     .form-row {
       display: flex;
@@ -69,13 +78,5 @@ form {
     input[type="submit"] {
       margin-left: 5px;
     }
-
-    .checkbox-highlight {
-      color: $color__mm4-yellow;
-      display: inline-block;
-      margin-bottom: 0;
-      margin-right: 10px;
-    }
   }
-
 }

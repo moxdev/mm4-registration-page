@@ -63,7 +63,7 @@ footer {
 
     .footer-logos {
       align-items: flex-end;
-      max-width: none;
+      max-width: 450px;
       @include reset;
 
       a, span {

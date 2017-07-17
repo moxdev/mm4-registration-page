@@ -601,8 +601,17 @@ form ul label {
   position: relative;
   padding-left: 2em;
 }
-@media (min-width: 1150px) {
+@media (min-width: 950px) {
   /* line 55, ../sass/_form.scss */
+  form .checkbox-highlight {
+    color: #ffd456;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+}
+@media (min-width: 1150px) {
+  /* line 64, ../sass/_form.scss */
   form .form-row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -615,29 +624,22 @@ form ul label {
     text-align: right;
     margin-bottom: 1em;
   }
-  /* line 61, ../sass/_form.scss */
+  /* line 70, ../sass/_form.scss */
   form .form-row label {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
     line-height: 1;
   }
-  /* line 65, ../sass/_form.scss */
+  /* line 74, ../sass/_form.scss */
   form .form-row input {
     -webkit-box-flex: 2;
         -ms-flex: 2;
             flex: 2;
   }
-  /* line 69, ../sass/_form.scss */
+  /* line 78, ../sass/_form.scss */
   form input[type="submit"] {
     margin-left: 5px;
-  }
-  /* line 73, ../sass/_form.scss */
-  form .checkbox-highlight {
-    color: #ffd456;
-    display: inline-block;
-    margin-bottom: 0;
-    margin-right: 10px;
   }
 }
 
@@ -1361,7 +1363,7 @@ footer .footer-address {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-    max-width: none;
+    max-width: 450px;
     margin: 0;
     padding: 0;
   }
