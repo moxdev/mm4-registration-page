@@ -1,8 +1,7 @@
 form {
 
   input,
-  label,
-  textarea {
+  label {
     display: block;
     width: 100%;
   }
@@ -16,7 +15,6 @@ form {
     font-size: .9em;
     appearance: none;
     padding: 6px 10px;
-
   }
 
   fieldset {
@@ -50,6 +48,33 @@ form {
       display: block;
       position: relative;
       padding-left: 2em;
+    }
+  }
+
+  @include respond-to('1150') {
+    .form-row {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: right;
+      margin-bottom: 1em;
+      label {
+        flex: 1;
+        line-height: 1;
+      }
+      input {
+        flex: 2;
+      }
+    }
+    input[type="submit"] {
+      margin-left: 5px;
+    }
+
+    .checkbox-highlight {
+      color: $color__mm4-yellow;
+      display: inline-block;
+      margin-bottom: 0;
+      margin-right: 10px;
     }
   }
 

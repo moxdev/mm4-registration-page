@@ -9,11 +9,11 @@ html {
   }
 
   @include respond-to('750') {
-    @include font-size(1.09);
+    @include font-size(1.10);
   }
 
   @include respond-to('1150') {
-    @include font-size(1.11);
+    @include font-size(1.15);
   }
 
   @include respond-to('1450') {
@@ -35,7 +35,7 @@ textarea {
   line-height: $font__line-height-body;
 
   @include respond-to('575') {
-    line-height: $font__line-height-body * 1.0425;
+    line-height: 1.5;
   }
 
   @include respond-to('1150') {
@@ -52,6 +52,10 @@ textarea {
 }
 body {
   background-color: $color__background_blue;
+}
+
+.honey {
+  display: none;
 }
 
 .wrapper {
@@ -90,7 +94,12 @@ header {
 
 .flex-child {
   @include respond-to('950') {
-    flex: 1 0 50%;
+    flex: 1 1 50%;
   }
+}
+
+.inner-wrapper {
+  max-width:800px;
+  margin: 0;
 }
 

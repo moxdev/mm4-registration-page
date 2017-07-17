@@ -10,6 +10,13 @@ h1 {
   line-height: 1;
   @include font-smooth;
   font-size: 2em;
+  margin-bottom: .5em;
+
+  @include respond-to('450') {
+    font-size: 1.9em;
+    margin-bottom: .75em;
+
+  }
 }
 
 h2 {
@@ -23,9 +30,19 @@ h2 {
   font-size: 1.6em;
   letter-spacing: 1px;
 
+  @include respond-to('450') {
+    font-size: 1.9em;
+  }
+
+  @include respond-to('650') {
+    font-size: 1.8em;
+  }
+
   @include respond-to('950') {
     font-size: 2em;
     padding: .35em;
+    text-align: left;
+    @include padding-left-right;
   }
 }
 

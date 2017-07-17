@@ -3,21 +3,13 @@ header {
   @include padding-left-right;
   text-align: center;
 
-  h1 {
-    margin-bottom: .5em;
-
-    @include respond-to('450') {
-      font-size: 2.5em;
-    }
-  }
-
   .gbites {
-    max-width: 220px;
+    max-width: 200px;
     margin-bottom: .5em;
   }
 
   .mm4-header {
-    max-width: 120px;
+    max-width: 100px;
   }
 
   @include respond-to('950') {

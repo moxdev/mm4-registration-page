@@ -27,7 +27,7 @@
         <div class="flex-container">
           <section id="announcement" class="flex-child">
             <h2 class="section-heading">Next Up</h2>
-            <div class="announcement-wrapper">
+            <div class="announcement-wrapper innner-wrapper">
               <ul>
                 <li class="what">Digital Marketing for the Retail Industry<span><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis enim fugiat harum, ullam ea consectetur, minus cumque dolor error magnam.</small></span></li>
                 <li class="when">Wednesday,  July 12, 2017 from 11:30am – 1:00pm</li>
@@ -35,23 +35,27 @@
               </ul>
             </div><!-- announcement-wrapper -->
           </section><!--#announcement-->
-          <section id="event-details">
+          <section id="event-details" class="flex-child">
             <h2 class="section-heading">About the Expo</h2>
-            <div class="event-details-wrapper">
+            <div class="event-details-wrapper inner-wrapper">
               <p>We invite you and your colleagues to join us for our 2017 marketing and educational events. Take a seat with industry professionals and explore the challenges and trends shaping marketing today. We’ll discuss smart strategies to help you achieve your goals and move your business forward.</p>
 
               <p class="list-header">0ur marketing and educational subjects include:</p>
 
-              <ul>
-                <li>Brand Strategy</li>
-                <li>Promotional Products, Gifts & Apparel</li>
-                <li>Printing,  Mailing & Fulfillment</li>
-                <li>Google Partner Seminars</li>
-                <li>Digital Marketing</li>
-                <li>Trade Show Graphics & Hardware</li>
-                <li>Online Company Marketing Stores</li>
-                <li>e-Publishing</li>
-              </ul>
+              <div class="list-content">
+
+                <ul>
+                  <li>Brand Strategy</li>
+                  <li>Promotional Products, Gifts & Apparel</li>
+                  <li>Printing,  Mailing & Fulfillment</li>
+                  <li>Google Partner Seminars</li>
+                  <li>Digital Marketing</li>
+                  <li>Trade Show Graphics & Hardware</li>
+                  <li>Online Company Marketing Stores</li>
+                  <li>e-Publishing</li>
+                </ul>
+
+              </div>
 
               <p>Have a suggestion, we would live to hear more. Please email <a href="mailto:events@mm4solutions.com">events@mm4solutions.com</a> and share your idea.</p>
             </div><!-- event-details-wrapper -->
@@ -130,7 +134,10 @@
                   <label for="spam" class="honey">What is 2 plus two?</label>
                   <input type="text" class="honey" name="spam" id="spam">
                 </span>
-                <input type="submit" value="&#10003; I Am Finished Registering!" class="submit" />
+                <span class="form-row">
+                  <label for="submit"></label>
+                  <input type="submit" value="&#10003; I Am Finished Registering!" class="submit" />
+                </span>
               </section>
             </form>
           </div><!-- registration-wrapper -->
