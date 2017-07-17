@@ -621,9 +621,10 @@ h1 {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 2em;
 }
 
-/* line 14, ../sass/_headings.scss */
+/* line 15, ../sass/_headings.scss */
 h2 {
   margin: 0;
   padding: 0;
@@ -632,17 +633,20 @@ h2 {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-/* line 22, ../sass/_headings.scss */
-h2.section-heading {
   text-align: center;
   padding: .25em;
   font-size: 1.6em;
   letter-spacing: 1px;
 }
+@media (min-width: 950px) {
+  /* line 15, ../sass/_headings.scss */
+  h2 {
+    font-size: 2em;
+    padding: .35em;
+  }
+}
 
-/* line 29, ../sass/_headings.scss */
+/* line 32, ../sass/_headings.scss */
 h3 {
   margin: 0;
   padding: 0;
@@ -824,12 +828,61 @@ header {
   }
 }
 /* line 6, ../sass/_header.scss */
-header img {
+header h1 {
+  margin-bottom: .5em;
+}
+@media (min-width: 450px) {
+  /* line 6, ../sass/_header.scss */
+  header h1 {
+    font-size: 2.5em;
+  }
+}
+/* line 14, ../sass/_header.scss */
+header .gbites {
+  max-width: 220px;
+  margin-bottom: .5em;
+}
+/* line 19, ../sass/_header.scss */
+header .mm4-header {
   max-width: 120px;
 }
-/* line 10, ../sass/_header.scss */
-header h1 {
-  font-size: 1.7em;
+@media (min-width: 950px) {
+  /* line 1, ../sass/_header.scss */
+  header {
+    padding-top: 1em;
+    padding-bottom: .5em;
+  }
+  /* line 27, ../sass/_header.scss */
+  header .flex-container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  /* line 31, ../sass/_header.scss */
+  header h1 {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 1.9em;
+  }
+  /* line 38, ../sass/_header.scss */
+  header .gbites {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-right: 1em;
+    margin-bottom: 0;
+  }
+  /* line 44, ../sass/_header.scss */
+  header .mm4-header {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    max-width: 135px;
+    margin-bottom: 5px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1032,13 +1085,21 @@ header h1 {
   }
 }
 @media (min-width: 750px) {
-  /* line 132, ../sass/_main-content.scss */
+  /* line 121, ../sass/_main-content.scss */
   .main-content #event-details .event-details-wrapper p:first-child {
     margin-top: 0;
   }
-  /* line 136, ../sass/_main-content.scss */
+  /* line 125, ../sass/_main-content.scss */
   .main-content #event-details .event-details-wrapper ul {
     line-height: 1.5;
+  }
+}
+@media (min-width: 950px) {
+  /* line 135, ../sass/_main-content.scss */
+  .main-content #registration #form-section {
+    padding-left: 2em;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 

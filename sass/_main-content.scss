@@ -116,17 +116,6 @@
   }
 
   @include respond-to('750') {
-    // .flex-wrapper {
-    //   display: flex;
-    //   justify-content: space-between;
-    // }
-
-    // #announcement,
-    // #event-detail {
-    //   max-width: none;
-    //   flex: 1 1 50%;
-    // }
-
     #event-details {
       .event-details-wrapper {
         p:first-child {
@@ -136,6 +125,17 @@
         ul {
           line-height: 1.5;
         }
+      }
+    }
+  }
+
+  @include respond-to('950') {
+    #registration {
+
+      #form-section {
+        padding-left: 2em;
+        padding-top: 0;
+        padding-bottom: 0;
       }
     }
   }

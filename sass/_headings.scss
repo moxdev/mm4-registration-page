@@ -9,6 +9,7 @@ h1 {
   font-family: $font__heading;
   line-height: 1;
   @include font-smooth;
+  font-size: 2em;
 }
 
 h2 {
@@ -17,17 +18,18 @@ h2 {
   color: $color__mm4-white;
   line-height: 1;
   @include font-smooth;
-}
-
-h2.section-heading {
   text-align: center;
   padding: .25em;
   font-size: 1.6em;
   letter-spacing: 1px;
+
+  @include respond-to('950') {
+    font-size: 2em;
+    padding: .35em;
+  }
 }
 
 h3 {
   @include reset;
   color: $color__mm4-yellow;
-
 }
