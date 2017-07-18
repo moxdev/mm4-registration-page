@@ -56,7 +56,7 @@ footer {
   }
 
   @include respond-to('950') {
-    padding-bottom: 4em;
+    padding-bottom: 2em;
 
     .flex-container {
       align-items:flex-end;

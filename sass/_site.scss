@@ -13,11 +13,11 @@ html {
   }
 
   @include respond-to('1150') {
-    @include font-size(1.15);
+    // @include font-size(1.15);
   }
 
   @include respond-to('1450') {
-    @include font-size(1.211);
+    @include font-size(1.15);
   }
 }
 
@@ -88,7 +88,7 @@ header {
 .flex-container {
   @include respond-to('950') {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
 }
 
