@@ -22,6 +22,13 @@ form {
     @include reset;
   }
 
+  input[type="checkbox"] {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    cursor: pointer;
+  }
+
   .checkbox-highlight {
     color: $color__mm4-yellow;
     display: block;
@@ -37,17 +44,16 @@ form {
       margin: .5em 0;
     }
 
-    input {
-      position: absolute;
-      top: 3px;
-      left: 0;
-
-    }
-
     label {
       display: block;
       position: relative;
       padding-left: 2em;
+    }
+  }
+
+  @include respond-to('750') {
+    input[type="checkbox"] {
+      top: 5px;
     }
   }
 
@@ -57,6 +63,7 @@ form {
       display: inline-block;
       margin-bottom: 0;
       margin-right: 10px;
+      font-weight: 700;
     }
   }
 

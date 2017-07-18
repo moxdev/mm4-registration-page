@@ -15,7 +15,17 @@ h1 {
   @include respond-to('450') {
     font-size: 1.9em;
     margin-bottom: .75em;
+  }
 
+  @include respond-to('950') {
+    flex: 2;
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 1.9em;
+  }
+
+  @include respond-to('1150') {
+    font-size: 2em;
   }
 }
 
@@ -44,9 +54,14 @@ h2 {
     text-align: left;
     @include padding-left-right;
   }
+
+  @include respond-to('1150') {
+    font-size: 2.3em;
+  }
 }
 
 h3 {
   @include reset;
   color: $color__mm4-yellow;
+  font-weight: 700;
 }

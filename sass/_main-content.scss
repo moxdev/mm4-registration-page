@@ -9,6 +9,7 @@
 
     .announcement-wrapper {
       @include full-padding;
+      @include font-smooth;
 
       ul {
         list-style-type: none;
@@ -28,6 +29,7 @@
             position: absolute;
             top: 0;
             left: 0;
+            font-weight: 700;
           }
         }
 
@@ -46,6 +48,7 @@
         }
 
         .when {
+          max-width: 300px;
           &:before {
             content: 'when:';
           }
@@ -68,6 +71,7 @@
 
     .event-details-wrapper {
       @include full-padding;
+      @include font-smooth;
 
       .list-header {
         font-family: $font__bold;
@@ -89,6 +93,10 @@
     .registration-wrapper {
       @include full-padding;
       color: #fff;
+    }
+
+    #attending-section {
+      @include font-smooth;
     }
 
     #form-section {
