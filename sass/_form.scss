@@ -17,47 +17,70 @@ form {
     padding: 6px 10px;
   }
 
-  fieldset {
-    border: none;
-    @include reset;
-  }
-
-  input[type="checkbox"] {
-    position: absolute;
-    top: 3px;
-    left: 0;
-    cursor: pointer;
-  }
-
   .checkbox-highlight {
     color: $color__mm4-yellow;
     display: block;
-    margin-bottom: .2em;
   }
 
-  ul {
-    list-style-type: none;
+  fieldset {
+    border: none;
     @include reset;
 
-    li {
+    ul {
+      list-style-type: none;
+      @include reset;
+
+      li {
+        margin: .5em 0;
+      }
+
+      // label {
+      //   display: block;
+      //   position: relative;
+      //   padding-left: 2em;
+      // }
+    }
+
+    input[type="checkbox"] {
+      width: 13px;
+      height: 13px;
+      padding: 0;
+      margin:0;
       position: relative;
-      margin: .5em 0;
+      top: 5px;
+      float: left;
+      clear: both;
     }
 
     label {
-      display: block;
-      position: relative;
       padding-left: 2em;
     }
   }
 
+  .g-recaptcha {
+    display: block;
+    float: right;
+    margin: 1em 0;
+  }
+
+  .msg-box {
+    clear: right;
+  }
+
   @include respond-to('750') {
-    input[type="checkbox"] {
-      top: 5px;
+    fieldset {
+      input[type="checkbox"] {
+        // top: 7px;
+      }
     }
   }
 
   @include respond-to('950') {
+    fieldset {
+      input[type="checkbox"] {
+        // top: 11px;
+      }
+    }
     .checkbox-highlight {
       color: $color__mm4-yellow;
       display: inline-block;
@@ -84,6 +107,15 @@ form {
     }
     input[type="submit"] {
       margin-left: 5px;
+      margin-top: 0;
+    }
+
+    .honey-row {
+      margin-bottom: 0;
+    }
+
+    .g-recaptcha {
+      margin-top: .5em;
     }
   }
 }

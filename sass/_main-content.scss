@@ -48,7 +48,7 @@
         }
 
         .when {
-          max-width: 300px;
+          max-width: 320px;
           &:before {
             content: 'when:';
           }
@@ -88,6 +88,10 @@
   #registration {
     h2 {
       background-color: $color__mm4-yellow;
+    }
+
+    h2.thank-you-title {
+      text-align: center;
     }
 
     .registration-wrapper {
@@ -243,7 +247,7 @@
         padding-right: 5em;
 
         #form-section {
-          margin-right: 5em;
+          // margin-right: 5em;
         }
       }
     }

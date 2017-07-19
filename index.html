@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Millennium Marketing Solutions' Fall Marketing, Design &amp; Digital Expo</title>
+  <title>Millennium Marketing Solutions' School of Marketing</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/styles.css">
@@ -29,8 +29,8 @@
             <h2 class="section-heading">Next Up</h2>
             <div class="announcement-wrapper innner-wrapper">
               <ul>
-                <li class="what">Digital Marketing for the Retail Industry<span><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis enim fugiat harum, ullam ea consectetur, minus cumque dolor error magnam.</small></span></li>
-                <li class="when">Wednesday,  July 12, 2017 from 11:30am – 1:00pm</li>
+                <li class="what">Digital Marketing for the Retail Industry<span><small>More info to come.</small></span></li>
+                <li class="when">Wednesday,  October 17, 2017 from 11:30am – 1:00pm</li>
                 <li class="where">Millennium Marketing Solutions<span><a href="https://www.google.com/maps/place/Millennium+Marketing+Solutions/@39.130104,-76.7946677,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7e73b5c052709:0x3740136e105f7228!8m2!3d39.130104!4d-76.792479" target="_blank">Get Directions</a></span></li>
               </ul>
             </div><!-- announcement-wrapper -->
@@ -62,7 +62,7 @@
           </section><!--#event-details-->
         </div><!-- flex-wrapper -->
 
-        <section id="registration" class="flex-child">
+        <section id="registration">
           <h2 class="section-heading">Event Schedule &amp; Registration</h2>
           <div class="registration-wrapper">
             <form id="contact-form" class="flex-container" action="thank-you.php" method="POST">
@@ -130,10 +130,12 @@
                   <label for="how-hear">How Did You Hear About Us?</label>
                   <input type="text" name="how-hear" id="how-hear">
                 </span>
-                <span class="form-row">
+                <span class="form-row honey-row">
                   <label for="spam" class="honey">What is 2 plus two?</label>
                   <input type="text" class="honey" name="spam" id="spam">
                 </span>
+                <div class="g-recaptcha" data-sitekey="6LfciCkUAAAAAOPJOwBleqO2hZG_qpSVYmMqmVvU"></div>
+                <div class="msg-box"></div>
                 <span class="form-row">
                   <label for="submit"></label>
                   <input type="submit" value="&#10003; I Am Finished Registering!" class="submit" />
@@ -147,9 +149,9 @@
       <footer>
         <div class="footer-wrapper flex-container">
           <div class="footer-logos flex-child">
-            <a href="http://www.mm4solutions.com" target="_blank"><img id="mm4" src="/images/logo-footer-mm4.svg"></a>
-            <span><img id="wbenc" src="/images/logo-footer-wbenc.svg"></span>
-            <a href="https://www.google.com/partners/#a_profile;idtf=5819262343;" target="_blank"><img id="google-partner" src="images/logo-footer-google-partner.svg" alt="Google Partner" /></a>
+            <a href="http://www.mm4solutions.com" target="_blank"><img id="mm4" src="images/logo-footer-mm4.png"></a>
+            <span><img id="wbenc" src="images/logo-footer-wbenc.png"></span>
+            <a href="https://www.google.com/partners/#a_profile;idtf=5819262343;" target="_blank"><img id="google-partner" src="images/logo-footer-google-partner.png" alt="Google Partner" /></a>
           </div><!-- footer-logos -->
 
           <div class="social-wrapper flex-child">
@@ -186,8 +188,10 @@
   </div>
   <!-- wrapper -->
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="js/min/script-min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="js/min/script-min.js"></script> -->
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script src="js/min/mm4-you-validate-min.js"></script>
 </body>
 
 </html>

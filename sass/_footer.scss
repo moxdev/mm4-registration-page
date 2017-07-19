@@ -26,15 +26,15 @@ footer {
     }
 
     #mm4 {
-      max-width: 120px;
+      width: 120px;
     }
 
     #wbenc {
-      max-width: 63px;
+      width: 63px;
     }
 
     #google-partner {
-      max-width: 71px;
+      width: 71px;
     }
   }
 
@@ -63,12 +63,11 @@ footer {
     }
 
     .footer-logos {
-      align-items: flex-end;
+      display: block;
       max-width: 450px;
       @include reset;
 
       a, span {
-        flex: 1 1 33%;
         display: inline-block;
       }
 
@@ -78,16 +77,17 @@ footer {
       }
 
       #mm4 {
-        max-width: 220px;
+        width: 220px;
       }
 
       #wbenc {
-        max-width: 75px;
+        width: 75px;
         margin-left: 20px;
       }
 
       #google-partner {
-        max-width: 90px;
+        width: 95px;
+        margin-left: 10px;
       }
     }
 
@@ -106,5 +106,10 @@ footer {
     .footer-address {
       text-align: right;
     }
+  }
+
+  @include respond-to('1850') {
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
   }
 }
