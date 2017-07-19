@@ -1,7 +1,5 @@
 <?php
 
-session_start();
-include $_SERVER['DOCUMENT_ROOT'] . '/wp-content/themes/millennium-marketing-solutions/inc/akismet.class.php';
 
 // PREVENT DIRECT ACCESS TO THANK YOU PAGE
 if ( !isset( $_POST['first-name']) || !isset( $_POST['last-name']) || !isset( $_POST['company']) || !isset( $_POST['job-title']) || !isset( $_POST['email']) ) {
@@ -52,7 +50,6 @@ if($_SERVER['REQUEST_METHOD']=="POST") {
     'body' => $comments
   );
 
-  $akismet = new Akismet($MyBlogURL, $WordPressAPIKey, $comment);
 
   $from="admin@mm4solutions.com";
   $subject= "What is the subject?";
