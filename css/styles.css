@@ -1287,16 +1287,12 @@ header .mm4-header {
   .main-content #form-section {
     max-width: 1200px;
   }
-  /* line 182, ../sass/_main-content.scss */
-  .main-content .announcement-wrapper {
-    margin-right: 20%;
-  }
-  /* line 189, ../sass/_main-content.scss */
+  /* line 185, ../sass/_main-content.scss */
   .main-content #event-details .event-details-wrapper .list-header {
     font-family: "PTSans-Bold";
     margin-bottom: 10px;
   }
-  /* line 194, ../sass/_main-content.scss */
+  /* line 190, ../sass/_main-content.scss */
   .main-content #event-details .event-details-wrapper .list-content {
     -webkit-column-count: 2;
        -moz-column-count: 2;
@@ -1304,20 +1300,20 @@ header .mm4-header {
     padding-top: 0;
     margin-top: 0;
   }
-  /* line 199, ../sass/_main-content.scss */
+  /* line 195, ../sass/_main-content.scss */
   .main-content #event-details .event-details-wrapper .list-content ul {
     margin-top: 0;
   }
-  /* line 207, ../sass/_main-content.scss */
+  /* line 203, ../sass/_main-content.scss */
   .main-content #registration #attending-section {
     padding-right: 2em;
   }
-  /* line 210, ../sass/_main-content.scss */
+  /* line 206, ../sass/_main-content.scss */
   .main-content #registration #form-section {
     padding-top: .5em;
     padding-left: 0;
   }
-  /* line 214, ../sass/_main-content.scss */
+  /* line 210, ../sass/_main-content.scss */
   .main-content #registration #form-section label {
     margin: 0;
     padding: 0;
@@ -1325,23 +1321,23 @@ header .mm4-header {
   }
 }
 @media (min-width: 1850px) {
-  /* line 224, ../sass/_main-content.scss */
+  /* line 220, ../sass/_main-content.scss */
   .main-content #announcement h2 {
     padding-left: 2.1em;
   }
-  /* line 227, ../sass/_main-content.scss */
+  /* line 223, ../sass/_main-content.scss */
   .main-content #announcement .announcement-wrapper {
     padding-left: 5em;
   }
-  /* line 235, ../sass/_main-content.scss */
+  /* line 231, ../sass/_main-content.scss */
   .main-content #event-details .event-details-wrapper {
     padding-right: 5em;
   }
-  /* line 241, ../sass/_main-content.scss */
+  /* line 237, ../sass/_main-content.scss */
   .main-content #registration h2 {
     padding-left: 2.1em;
   }
-  /* line 245, ../sass/_main-content.scss */
+  /* line 241, ../sass/_main-content.scss */
   .main-content #registration .registration-wrapper {
     padding-left: 5em;
     padding-right: 5em;
