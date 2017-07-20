@@ -29,8 +29,8 @@
             <h2 class="section-heading">Next Up</h2>
             <div class="announcement-wrapper innner-wrapper">
               <ul>
-                <li class="what">Digital Marketing for the Retail Industry<span><small>More info to come.</small></span></li>
-                <li class="when">Wednesday,  October 11, 2017 from 11:30am – 1:00pm</li>
+                <li class="what">Google Bites: Digital Marketing for the Retail Industry<span><small>Join us for a thought provoking seminar on Digital Marketing for the Retail Industry. In today’s digital world, the shopping process continues to evolve, affecting buyers’ path to purchase and ultimately conversion. Our Google Partner speakers will explain how retailers can get ahead by adjusting their advertising strategies to target consumers where they are spending most of their time. They will also speak about the power of Google Shopping and provide recommendations Partners and advertisers can implement together in AdWords.</small></span></li>
+                <li class="when">Wednesday, August 16, 2017 from 11:30am – 1:00pm</li>
                 <li class="where">Millennium Marketing Solutions<span><a href="https://www.google.com/maps/place/Millennium+Marketing+Solutions/@39.130104,-76.7946677,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7e73b5c052709:0x3740136e105f7228!8m2!3d39.130104!4d-76.792479" target="_blank">Get Directions</a></span></li>
               </ul>
             </div><!-- announcement-wrapper -->
@@ -47,7 +47,7 @@
                 <ul>
                   <li>Brand Strategy</li>
                   <li>Promotional Products, Gifts & Apparel</li>
-                  <li>Printing,  Mailing & Fulfillment</li>
+                  <li>Printing, Mailing & Fulfillment</li>
                   <li>Google Partner Seminars</li>
                   <li>Digital Marketing</li>
                   <li>Trade Show Graphics & Hardware</li>
@@ -65,8 +65,10 @@
         <section id="registration">
           <h2 class="section-heading">Event Schedule &amp; Registration</h2>
           <div class="registration-wrapper">
-            <form id="contact-form" class="flex-container" action="thank-you.php" method="POST">
-              <input type="hidden" name="recipients" value="carrie_AT_mm4solutions.com">
+
+            <form name="contact-form" id="contact-form" class="flex-container" action="thank-you.php" method="POST" novalidate>
+
+              <input type="hidden" name="subject" id="subject" value="I am interested in your event">
 
               <section id="attending-section" class="flex-child">
                 <h3>What events would you like to attend?</h3>
@@ -108,23 +110,23 @@
               <section id="form-section" class="flex-child">
                 <span class="form-row">
                   <label for="first-name">* First Name:</label>
-                  <input type="text" name="first-name" id="first-name" class="required" />
+                  <input type="text" name="first-name" id="first-name" class="required" data-error-label="First Name">
                 </span>
                 <span class="form-row">
                   <label for="last-name">* Last Name:</label>
-                  <input type="text" name="last-name" id="last-name" class="required" />
+                  <input type="text" name="last-name" id="last-name" class="required" data-error-label="Last Name">
                 </span>
                 <span class="form-row">
                   <label for="company">* Company:</label>
-                  <input type="text" name="company" id="company" class="required" />
+                  <input type="text" name="company" id="company" class="required" data-error-label="Company">
                 </span>
                 <span class="form-row">
                   <label for="job-title">* Title:</label>
-                  <input type="text" name="job-title" id="job-title" class="required" />
+                  <input type="text" name="job-title" id="job-title" class="required" data-error-label="Title">
                 </span>
                 <span class="form-row">
                   <label for="email">* Email:</label>
-                  <input type="email" name="email" id="email" class="required email" />
+                  <input type="email" name="email" id="email" class="required" data-error-label="Email">
                 </span>
                 <span class="form-row how-label">
                   <label for="how-hear">How Did You Hear About Us?</label>
@@ -136,7 +138,7 @@
                 </span>
                 <div class="g-recaptcha" data-sitekey="6LfciCkUAAAAAOPJOwBleqO2hZG_qpSVYmMqmVvU"></div>
                 <div class="msg-box"></div>
-                <span class="form-row">
+                <span class="form-row submit">
                   <label for="submit"></label>
                   <input type="submit" value="&#10003; I Am Finished Registering!" class="submit" />
                 </span>

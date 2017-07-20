@@ -64,7 +64,23 @@ form {
   }
 
   .msg-box {
-    clear: right;
+    clear: both;
+  }
+
+  .msg-box.error {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    float: right;
+    span {
+      display: block;
+      strong {
+        color: #ffff00;
+      }
+    }
+  }
+
+  .submit {
+    clear: both;
   }
 
   @include respond-to('750') {

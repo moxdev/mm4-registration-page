@@ -1,14 +1,8 @@
 <?php
 
-
 // PREVENT DIRECT ACCESS TO THANK YOU PAGE
-if ( !isset( $_POST['first-name']) || !isset( $_POST['last-name']) || !isset( $_POST['company']) || !isset( $_POST['job-title']) || !isset( $_POST['email']) ) {
+if(!$_POST) {
   echo 'This page cannot be accessed directly.';
-  exit();
-}
-
-if ( empty( $_POST['first-name']) || empty( $_POST['last-name']) || empty( $_POST['company']) || empty( $_POST['job-title']) || empty( $_POST['email'])  ) {
-  echo 'You neglected to fill out required form fields.';
   exit();
 }
 
@@ -27,7 +21,9 @@ if($_SERVER['REQUEST_METHOD']=="POST") {
   $recipients=$_POST["recipients"];
   // $to = str_replace("_AT_","@",$recipients);
   $to='sbiggs@mm4solutions.com';
+  // $to='carrie@mm4solutions.com';
 
+  $captcha = $_POST['g-recaptcha-response'];
   $first_name=strip_tags($_POST["first-name"]);
   $last_name=strip_tags($_POST["last-name"]);
   $company=strip_tags($_POST["company"]);
@@ -43,22 +39,13 @@ if($_SERVER['REQUEST_METHOD']=="POST") {
   $session6=strip_tags($_POST["session-6"]);
   $session7=strip_tags($_POST["session-7"]);
 
-  $comment = array(
-    'author' => $first_name . $last_name,
-    'email' => $email,
-    'website' => $MyBlogURL,
-    'body' => $comments
-  );
-
-
-  $from="admin@mm4solutions.com";
-  $subject= "What is the subject?";
+  $from="events-form@mm4solutions.com";
+  $subject= "I am looking forward to attending.";
   $message='"' . $first_name . '","' . $last_name . '","' . $company . '","' . $title . '","' . $email . '","' . $how_hear . '","' . $session1 . '","' . $session2 . '","' . $session3 . '","' . $session4 . '","' . $session5 . '","' . $session6 . '","' . $session7 . '"';
   $header='From: '.$from."\r\n".'Reply-To: '.$from."\r\n".'MIME-Version: 1.0'."\r\n".'Content-type: text/html; charser=iso-8859-1'."\r\n".'X-Mailer: PHP/'.phpversion();
 
-  if ($akismet->isSpam()) {
-    //-- THIS IS SPAM, YO!!!!!
-    echo "We're sorry, but you appear to be a spambot";
+  if(!$captcha){
+    echo 'Please go back and check the spam protection checkbox.';
     exit();
   } else {
     @mail($to,$subject,$message,$header);
@@ -96,14 +83,14 @@ if($_SERVER['REQUEST_METHOD']=="POST") {
             <h2 class="section-heading">Next Up</h2>
             <div class="announcement-wrapper innner-wrapper">
               <ul>
-                <li class="what">Digital Marketing for the Retail Industry<span><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis enim fugiat harum, ullam ea consectetur, minus cumque dolor error magnam.</small></span></li>
-                <li class="when">Wednesday,  July 12, 2017 from 11:30am – 1:00pm</li>
+                <li class="what">Google Bites: Digital Marketing for the Retail Industry<span><small>Join us for a thought provoking seminar on Digital Marketing for the Retail Industry. In today’s digital world, the shopping process continues to evolve, affecting buyers’ path to purchase and ultimately conversion. Our Google Partner speakers will explain how retailers can get ahead by adjusting their advertising strategies to target consumers where they are spending most of their time. They will also speak about the power of Google Shopping and provide recommendations Partners and advertisers can implement together in AdWords.</small></span></li>
+                <li class="when">Wednesday, August 16, 2017 from 11:30am – 1:00pm</li>
                 <li class="where">Millennium Marketing Solutions<span><a href="https://www.google.com/maps/place/Millennium+Marketing+Solutions/@39.130104,-76.7946677,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7e73b5c052709:0x3740136e105f7228!8m2!3d39.130104!4d-76.792479" target="_blank">Get Directions</a></span></li>
               </ul>
             </div><!-- announcement-wrapper -->
           </section><!--#announcement-->
           <section id="event-details" class="flex-child">
-            <h2 class="section-heading">About the Expo</h2>
+            <h2 class="section-heading">About Our Events</h2>
             <div class="event-details-wrapper inner-wrapper">
               <p>We invite you and your colleagues to join us for our 2017 marketing and educational events. Take a seat with industry professionals and explore the challenges and trends shaping marketing today. We’ll discuss smart strategies to help you achieve your goals and move your business forward.</p>
 
@@ -114,7 +101,7 @@ if($_SERVER['REQUEST_METHOD']=="POST") {
                 <ul>
                   <li>Brand Strategy</li>
                   <li>Promotional Products, Gifts & Apparel</li>
-                  <li>Printing,  Mailing & Fulfillment</li>
+                  <li>Printing, Mailing & Fulfillment</li>
                   <li>Google Partner Seminars</li>
                   <li>Digital Marketing</li>
                   <li>Trade Show Graphics & Hardware</li>
@@ -129,7 +116,7 @@ if($_SERVER['REQUEST_METHOD']=="POST") {
           </section><!--#event-details-->
         </div><!-- flex-wrapper -->
 
-        <section id="registration" class="flex-child">
+        <section id="registration">
           <h2 class="thank-you-title">Thank You For Registering!</h2>
         </section><!--#registration-->
       </div><!-- main-content -->
@@ -178,6 +165,9 @@ if($_SERVER['REQUEST_METHOD']=="POST") {
 
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="js/min/script-min.js"></script> -->
+  <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
+  <!-- <script src="js/min/mm4-you-validate-min.js"></script> -->
 </body>
 
 </html>
+

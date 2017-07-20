@@ -610,10 +610,28 @@ form .g-recaptcha {
 }
 /* line 66, ../sass/_form.scss */
 form .msg-box {
-  clear: right;
+  clear: both;
+}
+/* line 70, ../sass/_form.scss */
+form .msg-box.error {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  float: right;
+}
+/* line 74, ../sass/_form.scss */
+form .msg-box.error span {
+  display: block;
+}
+/* line 76, ../sass/_form.scss */
+form .msg-box.error span strong {
+  color: #ffff00;
+}
+/* line 82, ../sass/_form.scss */
+form .submit {
+  clear: both;
 }
 @media (min-width: 950px) {
-  /* line 84, ../sass/_form.scss */
+  /* line 100, ../sass/_form.scss */
   form .checkbox-highlight {
     color: #ffd456;
     display: inline-block;
@@ -623,7 +641,7 @@ form .msg-box {
   }
 }
 @media (min-width: 1150px) {
-  /* line 94, ../sass/_form.scss */
+  /* line 110, ../sass/_form.scss */
   form .form-row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -636,29 +654,29 @@ form .msg-box {
     text-align: right;
     margin-bottom: 1em;
   }
-  /* line 100, ../sass/_form.scss */
+  /* line 116, ../sass/_form.scss */
   form .form-row label {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
     line-height: 1;
   }
-  /* line 104, ../sass/_form.scss */
+  /* line 120, ../sass/_form.scss */
   form .form-row input {
     -webkit-box-flex: 2;
         -ms-flex: 2;
             flex: 2;
   }
-  /* line 108, ../sass/_form.scss */
+  /* line 124, ../sass/_form.scss */
   form input[type="submit"] {
     margin-left: 5px;
     margin-top: 0;
   }
-  /* line 113, ../sass/_form.scss */
+  /* line 129, ../sass/_form.scss */
   form .honey-row {
     margin-bottom: 0;
   }
-  /* line 117, ../sass/_form.scss */
+  /* line 133, ../sass/_form.scss */
   form .g-recaptcha {
     margin-top: .5em;
   }

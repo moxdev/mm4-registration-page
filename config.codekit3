@@ -2374,6 +2374,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/old-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/old-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/pinterest.png": {
 		"ft": 32768,
 		"iS": 1376,
@@ -2430,6 +2440,88 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/logo-redo\/mm4-registration-page.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/logo-redo\/mm4-registration-page.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/logo-redo\/Mmschool-300-01.jpg": {
+		"ft": 16384,
+		"iS": 616099,
+		"oA": 0,
+		"oAP": "\/logo-redo\/Mmschool-300-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/logo-redo\/Mmschool-300-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/logo-redo\/Mmschool-300-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/logo-redo\/mmschool-content-300-01.png": {
+		"ft": 32768,
+		"iS": 7376,
+		"oA": 0,
+		"oAP": "\/logo-redo\/mmschool-content-300-01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/logo-redo\/Mmschool-noshadow-krakend.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/logo-redo\/Mmschool-noshadow-krakend.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/logo-redo\/Mmschool-noshadow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/logo-redo\/Mmschool-noshadow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/logo-redo\/Mmschool.jpg": {
+		"ft": 16384,
+		"iS": 594802,
+		"oA": 0,
+		"oAP": "\/logo-redo\/Mmschool.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/logo-redo\/Mmschool.png": {
+		"ft": 32768,
+		"iS": 6107,
+		"oA": 0,
+		"oAP": "\/logo-redo\/Mmschool.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/mm4-registration-page.sublime-project": {
 		"ft": 8192,
@@ -2581,6 +2673,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/page-assegts\/google-bites.png": {
+		"ft": 32768,
+		"iS": 4823,
+		"oA": 0,
+		"oAP": "\/page-assegts\/google-bites.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/page-assegts\/logo-2.jpg": {
