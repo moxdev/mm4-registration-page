@@ -1,0 +1,242 @@
+%!Adobe-FontList 1.18
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Aleo-Bold
+FamilyName:Aleo
+StyleName:Bold
+MenuName:Aleo
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Aleo Bold
+WritingScript:Roman
+OutlineFileName:\Aleo-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:233876
+FileModTime:1500556529
+NameArray:0,Mac,4,Aleo Bold
+NameArray:0,Win,1,Aleo
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSans-Bold
+FamilyName:PT Sans
+StyleName:Bold
+MenuName:PT Sans
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:PT Sans Bold
+WritingScript:Roman
+OutlineFileName:\PTS75F.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:458084
+FileModTime:1500556529
+NameArray:0,Mac,18,PT Sans Bold
+NameArray:0,Mac,4,PT Sans Bold
+NameArray:0,Win,1,PT Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSans-Regular
+FamilyName:PT Sans
+StyleName:Regular
+MenuName:PT Sans
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:PT Sans
+WritingScript:Roman
+OutlineFileName:\PTSans.ttc
+TTCOffset:56
+DataFormat:sfntData
+hasSVG:no
+FileLength:2767520
+FileModTime:1500556529
+NameArray:0,Mac,18,PT Sans
+NameArray:0,Mac,4,PT Sans
+NameArray:0,Win,1,PT Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSans-Italic
+FamilyName:PT Sans
+StyleName:Italic
+MenuName:PT Sans
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:PT Sans Italic
+WritingScript:Roman
+OutlineFileName:\PTSans.ttc
+TTCOffset:388
+DataFormat:sfntData
+hasSVG:no
+FileLength:2767520
+FileModTime:1500556529
+NameArray:0,Mac,18,PT Sans Italic
+NameArray:0,Mac,4,PT Sans Italic
+NameArray:0,Win,1,PT Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSans-NarrowBold
+FamilyName:PT Sans Narrow
+StyleName:Bold
+MenuName:PT Sans Narrow
+StyleBits:2
+WeightClass:700
+WidthClass:3
+AngleClass:0
+FullName:PT Sans Narrow Bold
+WritingScript:Roman
+OutlineFileName:\PTSans.ttc
+TTCOffset:720
+DataFormat:sfntData
+hasSVG:no
+FileLength:2767520
+FileModTime:1500556529
+NameArray:0,Mac,18,PT Sans Narrow Bold
+NameArray:0,Mac,4,PT Sans Narrow Bold
+NameArray:0,Win,1,PT Sans Narrow
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSans-Narrow
+FamilyName:PT Sans Narrow
+StyleName:Regular
+MenuName:PT Sans Narrow
+StyleBits:0
+WeightClass:400
+WidthClass:3
+AngleClass:0
+FullName:PT Sans Narrow
+WritingScript:Roman
+OutlineFileName:\PTSans.ttc
+TTCOffset:1052
+DataFormat:sfntData
+hasSVG:no
+FileLength:2767520
+FileModTime:1500556529
+NameArray:0,Mac,18,PT Sans Narrow
+NameArray:0,Mac,4,PT Sans Narrow
+NameArray:0,Win,1,PT Sans Narrow
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSans-CaptionBold
+FamilyName:PT Sans Caption
+StyleName:Bold
+MenuName:PT Sans Caption
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:PT Sans Caption Bold
+WritingScript:Roman
+OutlineFileName:\PTSans.ttc
+TTCOffset:1384
+DataFormat:sfntData
+hasSVG:no
+FileLength:2767520
+FileModTime:1500556529
+NameArray:0,Mac,18,PT Sans Caption Bold
+NameArray:0,Mac,4,PT Sans Caption Bold
+NameArray:0,Win,1,PT Sans Caption
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSans-Caption
+FamilyName:PT Sans Caption
+StyleName:Regular
+MenuName:PT Sans Caption
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:PT Sans Caption
+WritingScript:Roman
+OutlineFileName:\PTSans.ttc
+TTCOffset:1716
+DataFormat:sfntData
+hasSVG:no
+FileLength:2767520
+FileModTime:1500556529
+NameArray:0,Mac,18,PT Sans Caption
+NameArray:0,Mac,4,PT Sans Caption
+NameArray:0,Win,1,PT Sans Caption
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSans-BoldItalic
+FamilyName:PT Sans
+StyleName:Bold Italic
+MenuName:PT Sans
+StyleBits:3
+WeightClass:700
+WidthClass:5
+AngleClass:1
+FullName:PT Sans Bold Italic
+WritingScript:Roman
+OutlineFileName:\PTSans.ttc
+TTCOffset:2048
+DataFormat:sfntData
+hasSVG:no
+FileLength:2767520
+FileModTime:1500556529
+NameArray:0,Mac,18,PT Sans Bold Italic
+NameArray:0,Mac,4,PT Sans Bold Italic
+NameArray:0,Win,1,PT Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSans-Bold
+FamilyName:PT Sans
+StyleName:Bold
+MenuName:PT Sans
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:PT Sans Bold
+WritingScript:Roman
+OutlineFileName:\PTSans.ttc
+TTCOffset:2380
+DataFormat:sfntData
+hasSVG:no
+FileLength:2767520
+FileModTime:1500556529
+NameArray:0,Mac,18,PT Sans Bold
+NameArray:0,Mac,4,PT Sans Bold
+NameArray:0,Win,1,PT Sans
+%EndFont
+
