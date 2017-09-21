@@ -187,6 +187,14 @@
     #form-section {
       // @include container;
     }
+
+    #event-details {
+      h2 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+    }
+
     #registration {
       line-height: 1.2;
 
@@ -211,6 +219,10 @@
     }
 
     #event-details {
+      h2 {
+        padding-top: 34px;
+        padding-bottom: 34px;
+      }
       .event-details-wrapper {
 
         .list-header {
@@ -246,10 +258,24 @@
     }
   }
 
+  @include respond-to('1450') {
+    #announcement {
+      h2 {
+        padding-right: 20%;
+      }
+    }
+    #event-details {
+      h2 {
+        padding-top: 36px;
+        padding-bottom: 36px;
+      }
+    }
+  }
+
   @include respond-to('1850') {
     #announcement {
       h2 {
-        padding-left: 2.1em;
+        padding-right: 0;
       }
       .announcement-wrapper {
         padding-left: 5em;
@@ -258,6 +284,8 @@
 
     #event-details {
       h2 {
+        padding: .35em;
+        padding: .35em;
       }
       .event-details-wrapper {
         padding-right: 5em;
