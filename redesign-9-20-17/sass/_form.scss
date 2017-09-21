@@ -7,15 +7,19 @@ form {
   }
 
   .email-list-label {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    display: block;
     padding-top: 1em;
+
     input {
-      flex: 1 1 10%;
+      margin-top: 15px;
+      width: 13px;
+      height: 13px;
+      float: left;
+      clear: both;
     }
     label {
-      flex: 1 1 80%;
+      display: block;
+      padding-left: 2em;
     }
   }
 
@@ -166,14 +170,16 @@ form {
     }
 
     .email-list-label {
-      padding-left: 13em;
-      justify-content: flex-end;
+      display: block;
+      max-width: 500px;
+      margin-left: auto;
 
       input {
-        flex: 1 1 10%;
+        flex: none;
+        margin-top: 5px;
       }
       label {
-        flex: 1 1 80%;
+        flex: none;
       }
     }
 
@@ -191,24 +197,9 @@ form {
     }
   }
 
-  @include respond-to('1850') {
+  @include respond-to('1450') {
     .email-list-label {
-      max-width: 800px;
-      padding-bottom: 1em;
-      margin-left: auto;
-      padding-left: 20%;
-      justify-content: flex-end;
-    }
-  }
-
-  @include respond-to('2450') {
-    .email-list-label {
-      input {
-        flex: 1 1 10%;
-      }
-      label {
-        flex: 1 1 90%;
-      }
+      max-width: 525px;
     }
   }
 }

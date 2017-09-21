@@ -1232,6 +1232,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/min\/script-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/script-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/mm4-you-validate.js": {
 		"ft": 64,
 		"ma": 0,
