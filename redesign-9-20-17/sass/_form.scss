@@ -42,17 +42,17 @@ form {
   .read-more {
     padding: .5em 0;
 
+    a {
+      color: $color__mm4-yellow;
+    }
+
     .read-more-dropdown {
       padding-top: 1em;
       display: none;
     }
 
-    button {
-      background: transparent;
-      border: none;
-      border-radius: 0;
-      color: $color__mm4-yellow;
-      @include reset;
+    .read-more-dropdown.active {
+      display: block;
     }
   }
 

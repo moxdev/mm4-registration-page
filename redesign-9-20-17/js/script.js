@@ -21,26 +21,37 @@
   })
 })();
 
-const button = document.querySelectorAll("button");
-console.log(button);
+var read_more_expand = function(event) {
+  event.preventDefault();
 
-for (var i = 0, x = button.length; i < x; i++) {
-  button[i].addEventListener('click', function() {
-    if(this.classList.contains('active')) {
-      console.log("waht what");
-    }else {
-      console.log("nah yo");
-    }
-  })
-}
+  var toShow = jQuery(this).next();
+
+  if( jQuery(toShow).hasClass('active') ) {
+      jQuery(toShow).removeClass('active');
+      jQuery(this).html('Read More &raquo;');
+  } else {
+      jQuery(toShow).addClass('active');
+      jQuery(this).html('Read Less &raquo;');
+  }
+};
+
+jQuery('.read-more-btn').on('click', read_more_expand);
 
 
+// const button = document.querySelectorAll("button");
+// const active  = document.querySelector(".read-more-dropdown");
 
-// button.addEventListener('onclick', function() {
+// console.log(button);
+// console.log(active);
 
-//   if(this.classList.contains('active')) {
-//     console.log("waht what");
-//   }else {
-//     console.log("nah yo");
-//   }
-// })
+// for (var i = 0, x = button.length; i < x; i++) {
+//   button[i].addEventListener('click', function() {
+
+//     if (active.classList.contains('active')){
+//       console.log('you win');
+//     } else {
+//       console.log('you lose');
+//     }
+
+//   })
+// }

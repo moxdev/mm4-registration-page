@@ -598,18 +598,17 @@ form .read-more {
   padding: .5em 0;
 }
 /* line 45, ../sass/_form.scss */
+form .read-more a {
+  color: #ffd456;
+}
+/* line 49, ../sass/_form.scss */
 form .read-more .read-more-dropdown {
   padding-top: 1em;
   display: none;
 }
-/* line 50, ../sass/_form.scss */
-form .read-more button {
-  background: transparent;
-  border: none;
-  border-radius: 0;
-  color: #ffd456;
-  margin: 0;
-  padding: 0;
+/* line 54, ../sass/_form.scss */
+form .read-more .read-more-dropdown.active {
+  display: block;
 }
 /* line 59, ../sass/_form.scss */
 form fieldset {
