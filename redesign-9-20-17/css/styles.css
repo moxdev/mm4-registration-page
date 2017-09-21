@@ -558,6 +558,31 @@ form label {
   width: 100%;
 }
 /* line 9, ../sass/_form.scss */
+form .email-list-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1em;
+}
+/* line 14, ../sass/_form.scss */
+form .email-list-label input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10%;
+          flex: 1 1 10%;
+}
+/* line 17, ../sass/_form.scss */
+form .email-list-label label {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 80%;
+          flex: 1 1 80%;
+}
+/* line 22, ../sass/_form.scss */
 form input[type="submit"] {
   color: #fff;
   background-color: #e75200;
@@ -570,21 +595,21 @@ form input[type="submit"] {
           appearance: none;
   padding: 6px 10px;
 }
-/* line 20, ../sass/_form.scss */
+/* line 33, ../sass/_form.scss */
 form .checkbox-highlight {
   color: #ffd456;
   display: block;
 }
-/* line 25, ../sass/_form.scss */
+/* line 38, ../sass/_form.scss */
 form .read-more {
   padding: .5em 0;
 }
-/* line 28, ../sass/_form.scss */
+/* line 41, ../sass/_form.scss */
 form .read-more .read-more-dropdown {
   padding-top: 1em;
   display: none;
 }
-/* line 33, ../sass/_form.scss */
+/* line 46, ../sass/_form.scss */
 form .read-more button {
   background: transparent;
   border: none;
@@ -593,38 +618,38 @@ form .read-more button {
   margin: 0;
   padding: 0;
 }
-/* line 42, ../sass/_form.scss */
+/* line 55, ../sass/_form.scss */
 form fieldset {
   border: none;
   margin: 0;
   padding: 0;
 }
-/* line 46, ../sass/_form.scss */
+/* line 59, ../sass/_form.scss */
 form fieldset ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 50, ../sass/_form.scss */
+/* line 63, ../sass/_form.scss */
 form fieldset ul li {
   margin: .5em 0;
 }
-/* line 54, ../sass/_form.scss */
+/* line 67, ../sass/_form.scss */
 form fieldset ul ul {
   font-size: .9em;
 }
-/* line 57, ../sass/_form.scss */
+/* line 70, ../sass/_form.scss */
 form fieldset ul ul .sub-menu-header {
   margin: .5em 0;
   color: #ffd456;
   font-size: 1.1em;
 }
-/* line 64, ../sass/_form.scss */
+/* line 77, ../sass/_form.scss */
 form fieldset ul ul.read-more-list {
   list-style-type: disc;
   margin-left: 1.4em;
 }
-/* line 70, ../sass/_form.scss */
+/* line 83, ../sass/_form.scss */
 form fieldset input[type="checkbox"] {
   width: 13px;
   height: 13px;
@@ -635,44 +660,44 @@ form fieldset input[type="checkbox"] {
   float: left;
   clear: both;
 }
-/* line 81, ../sass/_form.scss */
+/* line 94, ../sass/_form.scss */
 form fieldset label {
   padding-left: 2em;
 }
-/* line 84, ../sass/_form.scss */
+/* line 97, ../sass/_form.scss */
 form fieldset label span {
   display: block;
 }
-/* line 90, ../sass/_form.scss */
+/* line 103, ../sass/_form.scss */
 form .g-recaptcha {
   display: block;
   float: right;
   margin: 1em 0;
 }
-/* line 96, ../sass/_form.scss */
+/* line 109, ../sass/_form.scss */
 form .msg-box {
   clear: both;
 }
-/* line 100, ../sass/_form.scss */
+/* line 113, ../sass/_form.scss */
 form .msg-box.error {
   margin-top: 1em;
   margin-bottom: 1em;
   float: right;
 }
-/* line 104, ../sass/_form.scss */
+/* line 117, ../sass/_form.scss */
 form .msg-box.error span {
   display: block;
 }
-/* line 106, ../sass/_form.scss */
+/* line 119, ../sass/_form.scss */
 form .msg-box.error span strong {
   color: #ffff00;
 }
-/* line 112, ../sass/_form.scss */
+/* line 125, ../sass/_form.scss */
 form .submit {
   clear: both;
 }
 @media (min-width: 950px) {
-  /* line 130, ../sass/_form.scss */
+  /* line 143, ../sass/_form.scss */
   form .checkbox-highlight {
     color: #ffd456;
     display: inline-block;
@@ -682,7 +707,7 @@ form .submit {
   }
 }
 @media (min-width: 1150px) {
-  /* line 140, ../sass/_form.scss */
+  /* line 153, ../sass/_form.scss */
   form .form-row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -695,31 +720,76 @@ form .submit {
     text-align: right;
     margin-bottom: 1em;
   }
-  /* line 146, ../sass/_form.scss */
+  /* line 159, ../sass/_form.scss */
   form .form-row label {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
     line-height: 1;
   }
-  /* line 150, ../sass/_form.scss */
+  /* line 163, ../sass/_form.scss */
   form .form-row input {
     -webkit-box-flex: 2;
         -ms-flex: 2;
             flex: 2;
   }
-  /* line 154, ../sass/_form.scss */
+  /* line 168, ../sass/_form.scss */
+  form .email-list-label {
+    padding-left: 13em;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  /* line 172, ../sass/_form.scss */
+  form .email-list-label input {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 10%;
+            flex: 1 1 10%;
+  }
+  /* line 175, ../sass/_form.scss */
+  form .email-list-label label {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 80%;
+            flex: 1 1 80%;
+  }
+  /* line 180, ../sass/_form.scss */
   form input[type="submit"] {
     margin-left: 5px;
     margin-top: 0;
   }
-  /* line 159, ../sass/_form.scss */
+  /* line 185, ../sass/_form.scss */
   form .honey-row {
     margin-bottom: 0;
   }
-  /* line 163, ../sass/_form.scss */
+  /* line 189, ../sass/_form.scss */
   form .g-recaptcha {
     margin-top: .5em;
+  }
+}
+@media (min-width: 1850px) {
+  /* line 195, ../sass/_form.scss */
+  form .email-list-label {
+    max-width: 800px;
+    padding-bottom: 1em;
+    margin-left: auto;
+    padding-left: 20%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+@media (min-width: 2450px) {
+  /* line 206, ../sass/_form.scss */
+  form .email-list-label input {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 10%;
+            flex: 1 1 10%;
+  }
+  /* line 209, ../sass/_form.scss */
+  form .email-list-label label {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 90%;
+            flex: 1 1 90%;
   }
 }
 
@@ -1169,41 +1239,44 @@ header .mm4-header {
 /* line 59, ../sass/_main-content.scss */
 .main-content #announcement .announcement-wrapper ul .what span {
   font-family: "PTSans-Regular";
+  padding-top: .25em;
+  padding-bottom: .25em;
+  line-height: 1.1;
 }
-/* line 64, ../sass/_main-content.scss */
+/* line 67, ../sass/_main-content.scss */
 .main-content #announcement .announcement-wrapper ul .when {
   max-width: 320px;
 }
-/* line 66, ../sass/_main-content.scss */
+/* line 69, ../sass/_main-content.scss */
 .main-content #announcement .announcement-wrapper ul .when:before {
   content: 'when:';
 }
-/* line 72, ../sass/_main-content.scss */
+/* line 75, ../sass/_main-content.scss */
 .main-content #announcement .announcement-wrapper ul .where:before {
   content: 'where:';
 }
-/* line 78, ../sass/_main-content.scss */
+/* line 81, ../sass/_main-content.scss */
 .main-content #announcement .announcement-wrapper ul.what-list {
   list-style-type: disc;
   margin-left: 1em;
   margin-top: .5em;
   max-width: 400px;
 }
-/* line 84, ../sass/_main-content.scss */
+/* line 87, ../sass/_main-content.scss */
 .main-content #announcement .announcement-wrapper ul.what-list li {
   padding-left: 0;
   margin-bottom: .5em;
   line-height: 1.2;
 }
-/* line 93, ../sass/_main-content.scss */
+/* line 96, ../sass/_main-content.scss */
 .main-content #event-details {
   background-color: #FFF;
 }
-/* line 95, ../sass/_main-content.scss */
+/* line 98, ../sass/_main-content.scss */
 .main-content #event-details h2 {
   background-color: #807e82;
 }
-/* line 99, ../sass/_main-content.scss */
+/* line 102, ../sass/_main-content.scss */
 .main-content #event-details .event-details-wrapper {
   padding-top: .5rem;
   padding-bottom: .5rem;
@@ -1214,45 +1287,45 @@ header .mm4-header {
   -webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);
 }
 @media (min-width: 450px) {
-  /* line 99, ../sass/_main-content.scss */
+  /* line 102, ../sass/_main-content.scss */
   .main-content #event-details .event-details-wrapper {
     padding-left: 1.75rem;
     padding-right: 1.75rem;
   }
 }
 @media (min-width: 750px) {
-  /* line 99, ../sass/_main-content.scss */
+  /* line 102, ../sass/_main-content.scss */
   .main-content #event-details .event-details-wrapper {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
 }
 @media (min-width: 1150px) {
-  /* line 99, ../sass/_main-content.scss */
+  /* line 102, ../sass/_main-content.scss */
   .main-content #event-details .event-details-wrapper {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
 }
-/* line 103, ../sass/_main-content.scss */
+/* line 106, ../sass/_main-content.scss */
 .main-content #event-details .event-details-wrapper .list-header {
   font-family: "PTSans-Bold";
   margin-bottom: 0;
 }
-/* line 108, ../sass/_main-content.scss */
+/* line 111, ../sass/_main-content.scss */
 .main-content #event-details .event-details-wrapper ul {
   line-height: 1.7;
   margin-top: 10px;
 }
-/* line 116, ../sass/_main-content.scss */
+/* line 119, ../sass/_main-content.scss */
 .main-content #registration h2 {
   background-color: #e75200;
 }
-/* line 120, ../sass/_main-content.scss */
+/* line 123, ../sass/_main-content.scss */
 .main-content #registration h2.thank-you-title {
   text-align: center;
 }
-/* line 124, ../sass/_main-content.scss */
+/* line 127, ../sass/_main-content.scss */
 .main-content #registration .registration-wrapper {
   padding-top: .5rem;
   padding-bottom: .5rem;
@@ -1261,49 +1334,49 @@ header .mm4-header {
   color: #fff;
 }
 @media (min-width: 450px) {
-  /* line 124, ../sass/_main-content.scss */
+  /* line 127, ../sass/_main-content.scss */
   .main-content #registration .registration-wrapper {
     padding-left: 1.75rem;
     padding-right: 1.75rem;
   }
 }
 @media (min-width: 750px) {
-  /* line 124, ../sass/_main-content.scss */
+  /* line 127, ../sass/_main-content.scss */
   .main-content #registration .registration-wrapper {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
 }
 @media (min-width: 1150px) {
-  /* line 124, ../sass/_main-content.scss */
+  /* line 127, ../sass/_main-content.scss */
   .main-content #registration .registration-wrapper {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
 }
-/* line 129, ../sass/_main-content.scss */
+/* line 132, ../sass/_main-content.scss */
 .main-content #registration #attending-section {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);
 }
-/* line 133, ../sass/_main-content.scss */
+/* line 136, ../sass/_main-content.scss */
 .main-content #registration #form-section {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 @media (min-width: 750px) {
-  /* line 133, ../sass/_main-content.scss */
+  /* line 136, ../sass/_main-content.scss */
   .main-content #registration #form-section {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
 }
-/* line 136, ../sass/_main-content.scss */
+/* line 139, ../sass/_main-content.scss */
 .main-content #registration #form-section form {
   padding-bottom: 2em;
 }
-/* line 140, ../sass/_main-content.scss */
+/* line 143, ../sass/_main-content.scss */
 .main-content #registration #form-section label {
   font-family: "PTSans-Bold";
   -webkit-font-smoothing: antialiased;
@@ -1312,7 +1385,7 @@ header .mm4-header {
   margin: .5em 0;
 }
 @media (min-width: 650px) {
-  /* line 149, ../sass/_main-content.scss */
+  /* line 152, ../sass/_main-content.scss */
   .main-content .announcement-wrapper,
   .main-content .event-details-wrapper,
   .main-content #attending-section,
@@ -1321,33 +1394,33 @@ header .mm4-header {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 160, ../sass/_main-content.scss */
+  /* line 163, ../sass/_main-content.scss */
   .main-content #announcement .announcement-wrapper ul li {
     line-height: 1.5;
     margin-bottom: 1em;
   }
 }
 @media (min-width: 750px) {
-  /* line 172, ../sass/_main-content.scss */
+  /* line 175, ../sass/_main-content.scss */
   .main-content #event-details .event-details-wrapper p:first-child {
     margin-top: 0;
   }
-  /* line 176, ../sass/_main-content.scss */
+  /* line 179, ../sass/_main-content.scss */
   .main-content #event-details .event-details-wrapper ul {
     line-height: 1.5;
   }
 }
 @media (min-width: 950px) {
-  /* line 192, ../sass/_main-content.scss */
+  /* line 195, ../sass/_main-content.scss */
   .main-content #event-details h2 {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  /* line 198, ../sass/_main-content.scss */
+  /* line 201, ../sass/_main-content.scss */
   .main-content #registration {
     line-height: 1.2;
   }
-  /* line 201, ../sass/_main-content.scss */
+  /* line 204, ../sass/_main-content.scss */
   .main-content #registration #form-section {
     padding-left: 2em;
     padding-top: 0;
@@ -1355,44 +1428,44 @@ header .mm4-header {
   }
 }
 @media (min-width: 1150px) {
-  /* line 210, ../sass/_main-content.scss */
+  /* line 213, ../sass/_main-content.scss */
   .main-content .announcement-wrapper,
   .main-content .event-details-wrapper,
   .main-content #attending-section,
   .main-content #form-section {
     max-width: 1200px;
   }
-  /* line 222, ../sass/_main-content.scss */
+  /* line 225, ../sass/_main-content.scss */
   .main-content #event-details h2 {
     padding-top: 34px;
     padding-bottom: 34px;
   }
-  /* line 228, ../sass/_main-content.scss */
+  /* line 231, ../sass/_main-content.scss */
   .main-content #event-details .event-details-wrapper .list-header {
     font-family: "PTSans-Bold";
     margin-bottom: 10px;
   }
-  /* line 233, ../sass/_main-content.scss */
+  /* line 236, ../sass/_main-content.scss */
   .main-content #event-details .event-details-wrapper .list-content {
     -webkit-column-count: 2;
             column-count: 2;
     padding-top: 0;
     margin-top: 0;
   }
-  /* line 238, ../sass/_main-content.scss */
+  /* line 241, ../sass/_main-content.scss */
   .main-content #event-details .event-details-wrapper .list-content ul {
     margin-top: 0;
   }
-  /* line 246, ../sass/_main-content.scss */
+  /* line 249, ../sass/_main-content.scss */
   .main-content #registration #attending-section {
     padding-right: 2em;
   }
-  /* line 249, ../sass/_main-content.scss */
+  /* line 252, ../sass/_main-content.scss */
   .main-content #registration #form-section {
     padding-top: .5em;
     padding-left: 0;
   }
-  /* line 253, ../sass/_main-content.scss */
+  /* line 256, ../sass/_main-content.scss */
   .main-content #registration #form-section label {
     margin: 0;
     padding: 0;
@@ -1400,39 +1473,39 @@ header .mm4-header {
   }
 }
 @media (min-width: 1450px) {
-  /* line 263, ../sass/_main-content.scss */
+  /* line 266, ../sass/_main-content.scss */
   .main-content #announcement h2 {
     padding-right: 20%;
   }
-  /* line 268, ../sass/_main-content.scss */
+  /* line 271, ../sass/_main-content.scss */
   .main-content #event-details h2 {
     padding-top: 36px;
     padding-bottom: 36px;
   }
 }
 @media (min-width: 1850px) {
-  /* line 277, ../sass/_main-content.scss */
+  /* line 280, ../sass/_main-content.scss */
   .main-content #announcement h2 {
     padding-right: 0;
   }
-  /* line 280, ../sass/_main-content.scss */
+  /* line 283, ../sass/_main-content.scss */
   .main-content #announcement .announcement-wrapper {
     padding-left: 5em;
   }
-  /* line 286, ../sass/_main-content.scss */
+  /* line 289, ../sass/_main-content.scss */
   .main-content #event-details h2 {
     padding: .35em;
     padding: .35em;
   }
-  /* line 290, ../sass/_main-content.scss */
+  /* line 293, ../sass/_main-content.scss */
   .main-content #event-details .event-details-wrapper {
     padding-right: 5em;
   }
-  /* line 296, ../sass/_main-content.scss */
+  /* line 299, ../sass/_main-content.scss */
   .main-content #registration h2 {
     padding-left: 2.1em;
   }
-  /* line 300, ../sass/_main-content.scss */
+  /* line 303, ../sass/_main-content.scss */
   .main-content #registration .registration-wrapper {
     padding-left: 5em;
     padding-right: 5em;

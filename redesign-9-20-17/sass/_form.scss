@@ -6,6 +6,19 @@ form {
     width: 100%;
   }
 
+  .email-list-label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 1em;
+    input {
+      flex: 1 1 10%;
+    }
+    label {
+      flex: 1 1 80%;
+    }
+  }
+
   input[type="submit"] {
     color: #fff;
     background-color: $color__mm4-orange;
@@ -151,6 +164,19 @@ form {
         flex: 2;
       }
     }
+
+    .email-list-label {
+      padding-left: 13em;
+      justify-content: flex-end;
+
+      input {
+        flex: 1 1 10%;
+      }
+      label {
+        flex: 1 1 80%;
+      }
+    }
+
     input[type="submit"] {
       margin-left: 5px;
       margin-top: 0;
@@ -162,6 +188,27 @@ form {
 
     .g-recaptcha {
       margin-top: .5em;
+    }
+  }
+
+  @include respond-to('1850') {
+    .email-list-label {
+      max-width: 800px;
+      padding-bottom: 1em;
+      margin-left: auto;
+      padding-left: 20%;
+      justify-content: flex-end;
+    }
+  }
+
+  @include respond-to('2450') {
+    .email-list-label {
+      input {
+        flex: 1 1 10%;
+      }
+      label {
+        flex: 1 1 90%;
+      }
     }
   }
 }
