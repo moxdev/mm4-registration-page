@@ -26,7 +26,8 @@ module.exports = {
         '*.php',
         'images/*.svg',
         'images/*.png',
-        'images/*.jpg'
+        'images/*.jpg',
+        'js/script.js'
     ],
     "watchOptions": {},
     "server": true,

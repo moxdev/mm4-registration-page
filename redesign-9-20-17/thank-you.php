@@ -30,17 +30,19 @@ if($_SERVER['REQUEST_METHOD']=="POST") {
   $email=strip_tags($_POST["email"]);
   $how_hear=strip_tags($_POST["how-hear"]);
 
-  $session1=strip_tags($_POST["session-1"]);
-  $session2=strip_tags($_POST["session-2"]);
-  $session3=strip_tags($_POST["session-3"]);
-  $session4=strip_tags($_POST["session-4"]);
-  $session5=strip_tags($_POST["session-5"]);
-  $session6=strip_tags($_POST["session-6"]);
-  $session7=strip_tags($_POST["session-7"]);
+  $expo_all=strip_tags($_POST["expo-all"]);
+  $fashion=strip_tags($_POST["fashion"]);
+  $stores=strip_tags($_POST["stores"]);
+  $google=strip_tags($_POST["google"]);
+  $social=strip_tags($_POST["social"]);
+  $healthcare=strip_tags($_POST["healthcare"]);
+  $branding=strip_tags($_POST["branding"]);
+  $mobile=strip_tags($_POST["mobile"]);
+  $email_list=strip_tags($_POST["email-list"]);
 
   $from="events-form@mm4solutions.com";
   $subject= "I am looking forward to attending.";
-  $message='"' . $first_name . '","' . $last_name . '","' . $company . '","' . $title . '","' . $email . '","' . $how_hear . '","' . $session1 . '","' . $session2 . '","' . $session3 . '","' . $session4 . '","' . $session5 . '","' . $session6 . '","' . $session7 . '"';
+  $message='"' . $first_name . '","' . $last_name . '","' . $company . '","' . $title . '","' . $email . '","' . $how_hear . '","' . $expo_all . '","' . $fashion . '","' . $stores . '","' . $google . '","' . $social . '","' . $healthcare . '","' . $branding . '","' . $mobile . '","' . $email_list . '"';
   $header='From: '.$from."\r\n".'Reply-To: '.$from."\r\n".'MIME-Version: 1.0'."\r\n".'Content-type: text/html; charser=iso-8859-1'."\r\n".'X-Mailer: PHP/'.phpversion();
 
   if(!$captcha){
@@ -79,29 +81,20 @@ if($_SERVER['REQUEST_METHOD']=="POST") {
       <div class="main-content">
         <div class="flex-container">
           <section id="announcement" class="flex-child">
-            <h2 class="section-heading">Next Up</h2>
+            <h2 class="section-heading">Next Up: <span>Marketing &amp; Educational Expo</span></h2>
             <div class="announcement-wrapper innner-wrapper">
               <ul>
-                <li class="what">Lunch & Learn: Online Company Stores<span><small>Could you use an extra hand to market and grow your business? Learn about a robust online marketing tool for your business at our Lunch & Learn on Company Stores! Learn how to control your brand, budget, and content.</small></span>
-                  <ul class="what-list">
-                    <li class="title">Who should attend:</li>
-                    <li><small>Leaders who have an online web-to-print store, but want to get more out of it.</small></li>
-                    <li><small>Innovators who work for or own a company with multiple locations that need easy access to branded marketing materials and promotional products.</small></li>
-                  </ul>
+                <li class="what">Annual Marketing Expo and Educational Event<span><small>School is in session! Are you ready to take your marketing to the next level and make 2018 the most successful year ever?</small></span>
+                <span><small>If so, then please join us for our Marketing Expo and Educational Event where you can attend one or all of the educational seminars and gather valuable information about the latest in marketing. In between seminars, meet with industry design and marketing professionals, who will provide you with ideas and advice to grow your business.</small></span>
+                <span><small>Visit with a variety of factory representatives, see and select from 1000s of promotional products, find the latest in trade show displays, play games, and win prizes, all while enjoying a delicious catered lunch.</small></span>
+                <span><small>Millennium School of Marketing offers you an unparalleled experience that will provide you the resources to move your business or organization forward.</small></span></li>
 
-                  <ul class="what-list">
-                    <li class="title">Why should you attend?</li>
-                    <li><small>You will learn how a company store works, and how it will save you time, money, and resources while protecting your brand. </small></li>
-                    <li><small>Our instructors will give live demonstrations on how you can quickly and easily order branded items including stationery, brochures, custom flyers, promotional products, apparel, and much more. Also, they will show you how you can have an online asset library.</small></li>
-                    <li><small>You will have the opportunity to meet and talk with our technical team and project managers.</small></li>
-                    <li><small>We will have computer stations set up so that you can take a test drive and see how great it works for yourself!</small></li>
-                  </ul>
-                </li>
-                <li class="when">Friday, September 15, 2017 from 11:30am – 2:00pm</li>
+                <li class="when">Wednesday, October 11, 2017 from 9:00am – 2:00pm</li>
                 <li class="where">Millennium Marketing Solutions<span><a href="https://www.google.com/maps/place/Millennium+Marketing+Solutions/@39.130104,-76.7946677,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7e73b5c052709:0x3740136e105f7228!8m2!3d39.130104!4d-76.792479" target="_blank">Get Directions</a></span></li>
               </ul>
             </div><!-- announcement-wrapper -->
           </section><!--#announcement-->
+
           <section id="event-details" class="flex-child">
             <h2 class="section-heading">About Our Events</h2>
             <div class="event-details-wrapper inner-wrapper">
@@ -113,18 +106,18 @@ if($_SERVER['REQUEST_METHOD']=="POST") {
 
                 <ul>
                   <li>Brand Strategy</li>
-                  <li>Promotional Products, Gifts & Apparel</li>
-                  <li>Printing, Mailing & Fulfillment</li>
+                  <li>Promotional Products, Gifts &amp; Apparel</li>
+                  <li>Printing, Mailing &amp; Fulfillment</li>
                   <li>Google Partner Seminars</li>
                   <li>Digital Marketing</li>
-                  <li>Trade Show Graphics & Hardware</li>
+                  <li>Trade Show Graphics &amp; Hardware</li>
                   <li>Online Company Marketing Stores</li>
                   <li>e-Publishing</li>
                 </ul>
 
               </div>
 
-              <p>Have a suggestion, we would love to hear more. Please email <a href="mailto:events@mm4solutions.com">events@mm4solutions.com</a> and share your idea.</p>
+              <p>Have a suggestion? We would love to hear more. Please email <a href="mailto:events@mm4solutions.com">events@mm4solutions.com</a> and share your idea.</p>
             </div><!-- event-details-wrapper -->
           </section><!--#event-details-->
         </div><!-- flex-wrapper -->
@@ -158,7 +151,7 @@ if($_SERVER['REQUEST_METHOD']=="POST") {
             </div><!-- footer-social -->
 
             <div class="footer-address">
-              <div itemscope itemtype="http://schema.org/Restaurant">
+              <div itemscope itemtype="http://schema.org/Organization">
                 <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                   <span itemprop="streetAddress">10900 Pump House Road</span>
                   <span itemprop="addressLocality">Annapolis Junction</span>,
@@ -176,8 +169,7 @@ if($_SERVER['REQUEST_METHOD']=="POST") {
   </div>
   <!-- wrapper -->
 
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="js/min/script-min.js"></script> -->
+  <!-- <script src="js/min/script-min.js"></script> -->
   <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
   <!-- <script src="js/min/mm4-you-validate-min.js"></script> -->
 </body>

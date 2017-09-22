@@ -24,7 +24,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/styles-min.css",
 		"oF": 0,
 		"oS": 3
@@ -34,6 +34,128 @@
 		"oA": 2,
 		"oAP": "\/css\/styles.css.map",
 		"oF": 0
+		},
+	"\/expo\/email-footer\/2017-fall-expo-email-footer.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/expo\/email-footer\/2017-fall-expo-email-footer.html",
+		"oF": 0
+		},
+	"\/expo\/email-footer\/executive-footer\/2017-fall-expo-executive-email-footer.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/expo\/email-footer\/executive-footer\/2017-fall-expo-executive-email-footer.html",
+		"oF": 0
+		},
+	"\/expo\/email-footer\/executive-footer\/images\/fall-expo-footer.gif": {
+		"ft": 4194304,
+		"iS": 19090,
+		"oA": 0,
+		"oAP": "\/expo\/email-footer\/executive-footer\/images\/fall-expo-footer.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/expo\/email-footer\/executive-footer\/images\/fall-expo-footer.jpg": {
+		"ft": 16384,
+		"iS": 63995,
+		"oA": 0,
+		"oAP": "\/expo\/email-footer\/executive-footer\/images\/fall-expo-footer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/expo\/email-footer\/executive-footer\/images\/fall-expo-footer.png": {
+		"ft": 32768,
+		"iS": 12816,
+		"oA": 0,
+		"oAP": "\/expo\/email-footer\/executive-footer\/images\/fall-expo-footer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/expo\/email-footer\/executive-footer\/images\/no-border-fall-expo-footer.gif": {
+		"ft": 4194304,
+		"iS": 18801,
+		"oA": 0,
+		"oAP": "\/expo\/email-footer\/executive-footer\/images\/no-border-fall-expo-footer.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/expo\/email-footer\/images\/fall-expo-footer.gif": {
+		"ft": 4194304,
+		"iS": 19090,
+		"oA": 0,
+		"oAP": "\/expo\/email-footer\/images\/fall-expo-footer.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/expo\/email-footer\/images\/fall-expo-footer.jpg": {
+		"ft": 16384,
+		"iS": 63995,
+		"oA": 0,
+		"oAP": "\/expo\/email-footer\/images\/fall-expo-footer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/expo\/email-footer\/images\/fall-expo-footer.png": {
+		"ft": 32768,
+		"iS": 12816,
+		"oA": 0,
+		"oAP": "\/expo\/email-footer\/images\/fall-expo-footer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/expo\/email-footer\/images\/mm4-expo17-email-footer.gif": {
+		"ft": 4194304,
+		"iS": 26757,
+		"oA": 0,
+		"oAP": "\/expo\/email-footer\/images\/mm4-expo17-email-footer.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/expo\/email-footer\/images\/mm4-expo17-email-footer.jpg": {
+		"ft": 16384,
+		"iS": 38846,
+		"oA": 0,
+		"oAP": "\/expo\/email-footer\/images\/mm4-expo17-email-footer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/expo\/email-footer\/images\/no-border-fall-expo-footer.gif": {
+		"ft": 4194304,
+		"iS": 18801,
+		"oA": 0,
+		"oAP": "\/expo\/email-footer\/images\/no-border-fall-expo-footer.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/expo\/mm4-expo17-email-footer.gif": {
+		"ft": 4194304,
+		"iS": 26757,
+		"oA": 0,
+		"oAP": "\/expo\/mm4-expo17-email-footer.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/expo\/mm4-expo17-email-footer.jpg": {
+		"ft": 16384,
+		"iS": 38846,
+		"oA": 0,
+		"oAP": "\/expo\/mm4-expo17-email-footer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/fonts\/aleo-bold-webfont.woff": {
 		"ft": 8192,
@@ -133,6 +255,16 @@
 		"oAP": "\/fonts\/old-fonts\/Aleo-Bold\/preview.html",
 		"oF": 0
 		},
+	"\/fonts\/old-fonts\/Aleo-Bold\/styles-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/old-fonts\/Aleo-Bold\/styles-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/fonts\/old-fonts\/Aleo-Bold\/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -201,6 +333,16 @@
 		"oAP": "\/fonts\/old-fonts\/PTSans-Bold\/PTSans-Bold.woff",
 		"oF": 0
 		},
+	"\/fonts\/old-fonts\/PTSans-Bold\/styles-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/old-fonts\/PTSans-Bold\/styles-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/fonts\/old-fonts\/PTSans-Bold\/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -238,6 +380,16 @@
 		"oA": 2,
 		"oAP": "\/fonts\/old-fonts\/PTSans-Regular\/PTSans-Regular.ttf",
 		"oF": 0
+		},
+	"\/fonts\/old-fonts\/PTSans-Regular\/styles-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/old-fonts\/PTSans-Regular\/styles-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/fonts\/old-fonts\/PTSans-Regular\/styles.css": {
 		"aP": 1,
@@ -484,7 +636,7 @@
 		"oAP": "\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-CMYK-search-mobile-disp.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.ai": {
@@ -506,7 +658,7 @@
 		"oAP": "\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.png": {
@@ -515,8 +667,8 @@
 		"oA": 0,
 		"oAP": "\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -526,8 +678,8 @@
 		"oA": 0,
 		"oAP": "\/images\/creation-images\/logo-kraken\/gpart-01.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -585,8 +737,8 @@
 		"oA": 0,
 		"oAP": "\/images\/creation-images\/logo-kraken\/wbenc-white-200.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -654,7 +806,7 @@
 		"oAP": "\/images\/creation-images\/logo-redo\/Mmschool-300-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/creation-images\/logo-redo\/Mmschool-300-01.svg": {
@@ -673,8 +825,8 @@
 		"oA": 0,
 		"oAP": "\/images\/creation-images\/logo-redo\/mmschool-content-300-01.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -684,8 +836,8 @@
 		"oA": 0,
 		"oAP": "\/images\/creation-images\/logo-redo\/mmschool-content-300-02.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -716,7 +868,7 @@
 		"oAP": "\/images\/creation-images\/logo-redo\/Mmschool.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/creation-images\/logo-redo\/Mmschool.png": {
@@ -725,8 +877,8 @@
 		"oA": 0,
 		"oAP": "\/images\/creation-images\/logo-redo\/Mmschool.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -797,8 +949,8 @@
 		"oA": 0,
 		"oAP": "\/images\/creation-images\/social-icons\/google-plus.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1127,8 +1279,8 @@
 		"oA": 0,
 		"oAP": "\/images\/creation-images\/social-icons\/twitter.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1169,8 +1321,8 @@
 		"oA": 0,
 		"oAP": "\/images\/logo-footer-google-partner.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1180,8 +1332,8 @@
 		"oA": 0,
 		"oAP": "\/images\/logo-footer-mm4.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1191,8 +1343,8 @@
 		"oA": 0,
 		"oAP": "\/images\/logo-footer-wbenc.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1211,6 +1363,16 @@
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 0
+		},
+	"\/js\/min\/min\/old-mm4-you-validate-min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/min\/old-mm4-you-validate-min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/js\/min\/mm4-you-validate-min.js": {
 		"ft": 64,
@@ -1285,1879 +1447,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/original-design\/bs-config.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/original-design\/min\/bs-config-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/original-design\/css\/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/original-design\/css\/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/original-design\/css\/styles.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/css\/styles.css.map",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/aleo-bold-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/aleo-bold-webfont.woff",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/aleo-bold-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/aleo-bold-webfont.woff2",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/Aleo-Bold.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/Aleo-Bold.eot",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/Aleo-Bold.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/Aleo-Bold.otf",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/Aleo-Bold.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/Aleo-Bold.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/fonts\/Aleo-Bold.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/Aleo-Bold.ttf",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/Aleo-Bold.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/Aleo-Bold.woff",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/aleo-bold-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/aleo-bold-webfont.woff",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/aleo-bold-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/aleo-bold-webfont.woff2",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/Aleo-Bold\/Aleo-Bold.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/Aleo-Bold\/Aleo-Bold.eot",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/Aleo-Bold\/Aleo-Bold.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/Aleo-Bold\/Aleo-Bold.otf",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/Aleo-Bold\/Aleo-Bold.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/Aleo-Bold\/Aleo-Bold.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/Aleo-Bold\/Aleo-Bold.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/Aleo-Bold\/Aleo-Bold.ttf",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/Aleo-Bold\/Aleo-Bold.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/Aleo-Bold\/Aleo-Bold.woff",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/Aleo-Bold\/preview.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/Aleo-Bold\/preview.html",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/Aleo-Bold\/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/original-design\/fonts\/old-fonts\/Aleo-Bold\/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/original-design\/fonts\/old-fonts\/PTS55F-webfont.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/PTS55F-webfont.eot",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/PTS55F-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/PTS55F-webfont.woff",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/pts75f-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/pts75f-webfont.woff",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/pts75f-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/pts75f-webfont.woff2",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/PTSans-Bold\/preview.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/PTSans-Bold\/preview.html",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/PTSans-Bold\/PTSans-Bold.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/PTSans-Bold\/PTSans-Bold.eot",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/PTSans-Bold\/PTSans-Bold.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/PTSans-Bold\/PTSans-Bold.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/PTSans-Bold\/PTSans-Bold.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/PTSans-Bold\/PTSans-Bold.ttf",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/PTSans-Bold\/PTSans-Bold.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/PTSans-Bold\/PTSans-Bold.woff",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/PTSans-Bold\/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/original-design\/fonts\/old-fonts\/PTSans-Bold\/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/original-design\/fonts\/old-fonts\/PTSans-Regular\/preview.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/PTSans-Regular\/preview.html",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/PTSans-Regular\/PTSans-Regular.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/PTSans-Regular\/PTSans-Regular.eot",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/PTSans-Regular\/PTSans-Regular.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/PTSans-Regular\/PTSans-Regular.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/PTSans-Regular\/PTSans-Regular.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/old-fonts\/PTSans-Regular\/PTSans-Regular.ttf",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/old-fonts\/PTSans-Regular\/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/original-design\/fonts\/old-fonts\/PTSans-Regular\/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/original-design\/fonts\/pt-sans-fontfacekit.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/pt-sans-fontfacekit.zip",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/pt-sans.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/pt-sans.zip",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/PTS55F-webfont.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/PTS55F-webfont.eot",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/PTS55F-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/PTS55F-webfont.woff",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/pts75f-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/pts75f-webfont.woff",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/pts75f-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/pts75f-webfont.woff2",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/PTSans-Bold.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/PTSans-Bold.eot",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/PTSans-Bold.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/PTSans-Bold.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/fonts\/PTSans-Bold.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/PTSans-Bold.ttf",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/PTSans-Bold.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/PTSans-Bold.woff",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/PTSans-Regular.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/PTSans-Regular.eot",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/PTSans-Regular.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/PTSans-Regular.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/fonts\/PTSans-Regular.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/PTSans-Regular.ttf",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/PTSans-Regular.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/PTSans-Regular.woff",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/zips\/Aleo-Bold.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/zips\/Aleo-Bold.zip",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/zips\/pt-sans-fontfacekit.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/zips\/pt-sans-fontfacekit.zip",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/zips\/pt-sans.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/zips\/pt-sans.zip",
-		"oF": 0
-		},
-	"\/original-design\/fonts\/zips\/webfontkit-20160808-162821.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/fonts\/zips\/webfontkit-20160808-162821.zip",
-		"oF": 0
-		},
-	"\/original-design\/images\/creation-images\/ai-background.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/ai-background.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/background-1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/background-1.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/background.png": {
-		"ft": 32768,
-		"iS": 13816,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/background.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/background.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/background.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/facebook.png": {
-		"ft": 32768,
-		"iS": 677,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/facebook.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/google-partner.gif": {
-		"ft": 4194304,
-		"iS": 1243,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/google-partner.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/original-design\/images\/creation-images\/icon-footer-millennium.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/icon-footer-millennium.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/footer-background-image-millennium.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/footer-background-image-millennium.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/google-bites-kraken.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/google-bites-kraken.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/google-bites.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/google-bites.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-CMYK-search-mobile-disp.ai": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-CMYK-search-mobile-disp.ai",
-		"oF": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-CMYK-search-mobile-disp.eps": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-CMYK-search-mobile-disp.eps",
-		"oF": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-CMYK-search-mobile-disp.jpg": {
-		"ft": 16384,
-		"iS": 639379,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-CMYK-search-mobile-disp.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.ai": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.ai",
-		"oF": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.eps": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.eps",
-		"oF": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.jpg": {
-		"ft": 16384,
-		"iS": 71819,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.png": {
-		"ft": 32768,
-		"iS": 28934,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/google-partner-search-mobile-disp\/google-partner-RGB-search-mobile-disp.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/gpart-01.png": {
-		"ft": 32768,
-		"iS": 2926,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/gpart-01.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/gpart-01.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/gpart-01.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/mm4-footer-logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/mm4-footer-logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/v2-google-partner-search-mobile-disp-13592591.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/v2-google-partner-search-mobile-disp-13592591.zip",
-		"oF": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/wbenc-whiate.ai": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/wbenc-whiate.ai",
-		"oF": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/wbenc-white-200-optimized.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/wbenc-white-200-optimized.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/wbenc-white-200.ai": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/wbenc-white-200.ai",
-		"oF": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/wbenc-white-200.png": {
-		"ft": 32768,
-		"iS": 5201,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/wbenc-white-200.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/wbenc-white-200.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/wbenc-white-200.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/WBENC-womensbusinessenterprise.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/WBENC-womensbusinessenterprise.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/wbenc.ai": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/wbenc.ai",
-		"oF": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/wbenc.png": {
-		"ft": 32768,
-		"iS": 24557,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/wbenc.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/logo-kraken\/wbenc.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-kraken\/wbenc.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-redo\/mm4-registration-page.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-redo\/mm4-registration-page.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-redo\/Mmschool-300-01.jpg": {
-		"ft": 16384,
-		"iS": 616099,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/logo-redo\/Mmschool-300-01.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/logo-redo\/Mmschool-300-01.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-redo\/Mmschool-300-01.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-redo\/mmschool-content-300-01.png": {
-		"ft": 32768,
-		"iS": 7376,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/logo-redo\/mmschool-content-300-01.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/logo-redo\/mmschool-content-300-02.png": {
-		"ft": 32768,
-		"iS": 7660,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/logo-redo\/mmschool-content-300-02.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/logo-redo\/Mmschool-noshadow-krakend.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-redo\/Mmschool-noshadow-krakend.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-redo\/Mmschool-noshadow.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/logo-redo\/Mmschool-noshadow.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/logo-redo\/Mmschool.jpg": {
-		"ft": 16384,
-		"iS": 594802,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/logo-redo\/Mmschool.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/logo-redo\/Mmschool.png": {
-		"ft": 32768,
-		"iS": 6107,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/logo-redo\/Mmschool.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/logo.png": {
-		"ft": 32768,
-		"iS": 12536,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/mm_footer_W.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/mm_footer_W.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/old-logo-footer-google-partner.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/old-logo-footer-google-partner.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/old-logo-footer-mm4.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/old-logo-footer-mm4.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/old-logo-footer-wbenc.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/old-logo-footer-wbenc.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/old-logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/old-logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/google-plus.png": {
-		"ft": 32768,
-		"iS": 1292,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/google-plus.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/icon-facebook.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/icon-facebook.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/icon-google-plus.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/icon-google-plus.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/icon-instagram.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/icon-instagram.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/icon-linkedin.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/icon-linkedin.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/icon-pinterest.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/icon-pinterest.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/icon-twitter.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/icon-twitter.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/instagram.png": {
-		"ft": 32768,
-		"iS": 1090,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/instagram.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/kraken-1499964420576.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/kraken-1499964420576.zip",
-		"oF": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/kraken-1499964420576\/icon-facebook.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/kraken-1499964420576\/icon-facebook.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/kraken-1499964420576\/icon-google-plus.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/kraken-1499964420576\/icon-google-plus.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/kraken-1499964420576\/icon-instagram.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/kraken-1499964420576\/icon-instagram.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/kraken-1499964420576\/icon-linkedin.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/kraken-1499964420576\/icon-linkedin.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/kraken-1499964420576\/icon-pinterest.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/kraken-1499964420576\/icon-pinterest.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/kraken-1499964420576\/icon-twitter.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/kraken-1499964420576\/icon-twitter.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/kraken-1499964420576\/pinterest-logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/kraken-1499964420576\/pinterest-logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/linkedin.png": {
-		"ft": 32768,
-		"iS": 862,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/linkedin.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/google-plus-logo-on-black-background.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/google-plus-logo-on-black-background.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/icon-facebook.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/icon-facebook.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/icon-google-plus.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/icon-google-plus.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/icon-instagram.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/icon-instagram.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/icon-linkedin.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/icon-linkedin.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/icon-pinterest.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/icon-pinterest.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/icon-twitter.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/icon-twitter.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/if_circle-google-plus_317751.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/if_circle-google-plus_317751.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/if_pinterest_317731.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/if_pinterest_317731.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/if_square-facebook_317727.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/if_square-facebook_317727.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/if_square-instagram.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/if_square-instagram.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/if_square-linkedin_317725.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/if_square-linkedin_317725.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/if_square-twitter_317723.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/if_square-twitter_317723.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/pinterest-logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/new-social-icons\/pinterest-logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/pinterest-logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/pinterest-logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/pinterest.png": {
-		"ft": 32768,
-		"iS": 1376,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/pinterest.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/social-icons\/twitter.png": {
-		"ft": 32768,
-		"iS": 1098,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/social-icons\/twitter.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/creation-images\/wbenc.png": {
-		"ft": 32768,
-		"iS": 3190,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/creation-images\/wbenc.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/footer-background-image-millennium.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/footer-background-image-millennium.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/google-bites.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/google-bites.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/images\/logo-footer-google-partner.png": {
-		"ft": 32768,
-		"iS": 2926,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/logo-footer-google-partner.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/logo-footer-mm4.png": {
-		"ft": 32768,
-		"iS": 11820,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/logo-footer-mm4.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/logo-footer-wbenc.png": {
-		"ft": 32768,
-		"iS": 5201,
-		"oA": 0,
-		"oAP": "\/original-design\/images\/logo-footer-wbenc.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/original-design\/images\/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/original-design\/images\/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/original-design\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/index.html",
-		"oF": 0
-		},
-	"\/original-design\/js\/min\/mm4-you-validate-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/original-design\/js\/min\/min\/mm4-you-validate-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/original-design\/js\/min\/old-mm4-you-validate-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/original-design\/js\/min\/min\/old-mm4-you-validate-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/original-design\/js\/mm4-you-validate.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/original-design\/js\/min\/mm4-you-validate-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/original-design\/mm4-registration-page.sublime-project": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/mm4-registration-page.sublime-project",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/3488aee74d91915a6c2061ab754873d3528b6b94\/mixins.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/sass\/.sass-cache\/3488aee74d91915a6c2061ab754873d3528b6b94\/mixins.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/52c376657bb58a55bd3321cfe40fb33b53d085cf\/_breakpoints.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/52c376657bb58a55bd3321cfe40fb33b53d085cf\/_breakpoints.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/52c376657bb58a55bd3321cfe40fb33b53d085cf\/_colors.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/52c376657bb58a55bd3321cfe40fb33b53d085cf\/_colors.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/52c376657bb58a55bd3321cfe40fb33b53d085cf\/_variables.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/52c376657bb58a55bd3321cfe40fb33b53d085cf\/_variables.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/64250a4d697b44859742ec128c4f9a4657350d31\/_mixin-containers.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/64250a4d697b44859742ec128c4f9a4657350d31\/_mixin-containers.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/64250a4d697b44859742ec128c4f9a4657350d31\/_mixin-master.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/64250a4d697b44859742ec128c4f9a4657350d31\/_mixin-master.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/64250a4d697b44859742ec128c4f9a4657350d31\/_mixin-padding-margin.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/64250a4d697b44859742ec128c4f9a4657350d31\/_mixin-padding-margin.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/64250a4d697b44859742ec128c4f9a4657350d31\/mixins.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/sass\/.sass-cache\/64250a4d697b44859742ec128c4f9a4657350d31\/mixins.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/7afaef4732350a4d7e5a46dd49801df5ce5d6feb\/_breakpoints.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/7afaef4732350a4d7e5a46dd49801df5ce5d6feb\/_breakpoints.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/7afaef4732350a4d7e5a46dd49801df5ce5d6feb\/_colors.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/7afaef4732350a4d7e5a46dd49801df5ce5d6feb\/_colors.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/7afaef4732350a4d7e5a46dd49801df5ce5d6feb\/_typography.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/7afaef4732350a4d7e5a46dd49801df5ce5d6feb\/_typography.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/7afaef4732350a4d7e5a46dd49801df5ce5d6feb\/_variables.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/7afaef4732350a4d7e5a46dd49801df5ce5d6feb\/_variables.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/83df8d90834ef8c290b826f474599846e75f74b7\/_about.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/83df8d90834ef8c290b826f474599846e75f74b7\/_about.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/83df8d90834ef8c290b826f474599846e75f74b7\/_header.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/83df8d90834ef8c290b826f474599846e75f74b7\/_header.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/83df8d90834ef8c290b826f474599846e75f74b7\/_invite.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/83df8d90834ef8c290b826f474599846e75f74b7\/_invite.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/83df8d90834ef8c290b826f474599846e75f74b7\/_registration.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/83df8d90834ef8c290b826f474599846e75f74b7\/_registration.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/83df8d90834ef8c290b826f474599846e75f74b7\/_site.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/83df8d90834ef8c290b826f474599846e75f74b7\/_site.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/83df8d90834ef8c290b826f474599846e75f74b7\/_typography.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/83df8d90834ef8c290b826f474599846e75f74b7\/_typography.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/83df8d90834ef8c290b826f474599846e75f74b7\/normalize.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/sass\/.sass-cache\/83df8d90834ef8c290b826f474599846e75f74b7\/normalize.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/83df8d90834ef8c290b826f474599846e75f74b7\/styles.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/sass\/.sass-cache\/83df8d90834ef8c290b826f474599846e75f74b7\/styles.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/88b19ca3f8a69396c17e78f9321d4ec313c688d7\/mixins.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/sass\/.sass-cache\/88b19ca3f8a69396c17e78f9321d4ec313c688d7\/mixins.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/a98577b2608cc702c98d3a1ad612808725d63d36\/_about.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/a98577b2608cc702c98d3a1ad612808725d63d36\/_about.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/a98577b2608cc702c98d3a1ad612808725d63d36\/_footer.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/a98577b2608cc702c98d3a1ad612808725d63d36\/_footer.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/a98577b2608cc702c98d3a1ad612808725d63d36\/_header.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/a98577b2608cc702c98d3a1ad612808725d63d36\/_header.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/a98577b2608cc702c98d3a1ad612808725d63d36\/_invite.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/a98577b2608cc702c98d3a1ad612808725d63d36\/_invite.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/a98577b2608cc702c98d3a1ad612808725d63d36\/_registration.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/a98577b2608cc702c98d3a1ad612808725d63d36\/_registration.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/a98577b2608cc702c98d3a1ad612808725d63d36\/_site.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/a98577b2608cc702c98d3a1ad612808725d63d36\/_site.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/a98577b2608cc702c98d3a1ad612808725d63d36\/_typography.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/a98577b2608cc702c98d3a1ad612808725d63d36\/_typography.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/a98577b2608cc702c98d3a1ad612808725d63d36\/normalize.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/sass\/.sass-cache\/a98577b2608cc702c98d3a1ad612808725d63d36\/normalize.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/a98577b2608cc702c98d3a1ad612808725d63d36\/styles.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/sass\/.sass-cache\/a98577b2608cc702c98d3a1ad612808725d63d36\/styles.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/_about.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/_about.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/_footer.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/_footer.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/_header.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/_header.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/_invite.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/_invite.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/_registration.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/_registration.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/_site.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/_site.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/_typography.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/_typography.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/normalize.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/normalize.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/styles.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/sass\/.sass-cache\/b26d817fb665932df05ce838627fde4cc2c327a8\/styles.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_about.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_about.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_elements.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_elements.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_fonts.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_fonts.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_footer.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_footer.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_form.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_form.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_header.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_header.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_headings.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_headings.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_invite.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_invite.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_main-content.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_main-content.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_normalize.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_normalize.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_registration.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_registration.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_site.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_site.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_typography.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/_typography.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/normalize.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/normalize.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/styles.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/sass\/.sass-cache\/d762299234a2b3c79b0b2ed89ac3ec0d68d7bd3d\/styles.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/e9e9ce2093f27378fe50c2ab8ce79955a473263d\/mixins.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/sass\/.sass-cache\/e9e9ce2093f27378fe50c2ab8ce79955a473263d\/mixins.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/f8f272fdd798717d4293d817e0d47d806ff70c6a\/_breakpoints.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/f8f272fdd798717d4293d817e0d47d806ff70c6a\/_breakpoints.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/f8f272fdd798717d4293d817e0d47d806ff70c6a\/_colors.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/f8f272fdd798717d4293d817e0d47d806ff70c6a\/_colors.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/f8f272fdd798717d4293d817e0d47d806ff70c6a\/_variables.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/f8f272fdd798717d4293d817e0d47d806ff70c6a\/_variables.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_breakpoints.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_breakpoints.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_colors.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_colors.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_headings.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_headings.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_typography.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_typography.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_variables.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/.sass-cache\/fbca475edece3823e5707ad1f5a53d90267c0d14\/_variables.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/_elements.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/original-design\/css\/_elements.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/original-design\/sass\/_fonts.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/original-design\/css\/_fonts.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/original-design\/sass\/_footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/original-design\/css\/_footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/original-design\/sass\/_form.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/original-design\/css\/_form.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/original-design\/sass\/_header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/original-design\/css\/_header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/original-design\/sass\/_headings.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/original-design\/css\/_headings.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/original-design\/sass\/_main-content.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/original-design\/css\/_main-content.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/original-design\/sass\/_normalize.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/original-design\/css\/_normalize.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/original-design\/sass\/_registration.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/original-design\/css\/_registration.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/original-design\/sass\/_site.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/original-design\/css\/_site.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/original-design\/sass\/css\/mixins.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/original-design\/sass\/css\/mixins-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/original-design\/sass\/mixins\/.sass-cache\/e9e9ce2093f27378fe50c2ab8ce79955a473263d\/mixins.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/sass\/mixins\/.sass-cache\/e9e9ce2093f27378fe50c2ab8ce79955a473263d\/mixins.scssc",
-		"oF": 0
-		},
-	"\/original-design\/sass\/mixins\/_mixin-containers.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/css\/_mixin-containers.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/original-design\/sass\/mixins\/_mixin-master.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/css\/_mixin-master.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/original-design\/sass\/mixins\/_mixin-padding-margin.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/css\/_mixin-padding-margin.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/original-design\/sass\/styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/original-design\/css\/styles.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/original-design\/sass\/variables\/_breakpoints.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/css\/_breakpoints.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/original-design\/sass\/variables\/_colors.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/css\/_colors.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/original-design\/sass\/variables\/_typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/css\/_typography.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/original-design\/sass\/variables\/_variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/original-design\/sass\/css\/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/original-design\/thank-you.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/original-design\/thank-you.php",
-		"oF": 0
 		},
 	"\/sass\/.sass-cache\/249c73350fcb97c0caab5e5b60b87a1b31c4444f\/_elements.scssc": {
 		"ft": 8192,
@@ -3876,7 +2165,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/mixins-min.css",
 		"oF": 0,
 		"oS": 3
@@ -3927,17 +2216,17 @@
 		"uL": 1
 		},
 	"\/sass\/styles.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 1,
+		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/styles.css",
 		"oF": 0,
-		"oS": 1,
-		"uL": 0
+		"oS": 0,
+		"uL": 1
 		},
 	"\/sass\/variables\/_breakpoints.scss": {
 		"aP": 0,
